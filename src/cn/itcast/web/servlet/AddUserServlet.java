@@ -36,7 +36,7 @@ public class AddUserServlet extends HttpServlet {
         service.addUser(user);
 
         // 5.跳转到userListServlet，也就是将数据库中的页面重新展示到页面中
-        response.sendRedirect(request.getContextPath() + "/userListServlet");
+        response.sendRedirect(request.getContextPath() + "/findUserByPageServlet");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

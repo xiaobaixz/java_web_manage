@@ -74,6 +74,7 @@ public class UserServiceImpl implements Userservice {
             currentPage=1;
         }
 
+
         // 1.创建空的PageBean对象
         PageBean<user> pb = new PageBean<user>();
 
@@ -81,25 +82,27 @@ public class UserServiceImpl implements Userservice {
         int totalCount = dao.findTotalCount(condition);
         pb.setTotalCount(totalCount);
 
-        // 3.调用dao查询List集合
+        // 3.计算总页码
+        int totalPage = (totalCount % rows) == 0 ? (totalCount / rows) : (totalCount / rows + 1);
+        pb.setTotalPage(totalPage);
+
+//        System.out.println(currentPage + "---" + totalPage);
+
+        // 防止最后一页还能点的情况
+        if (currentPage>=totalPage){
+            currentPage=totalPage;
+        }
+
+        // 4.设置参数
+        pb.setCurrentPage(currentPage);
+        pb.setRows(rows);
+
+
+        // 5.调用dao查询List集合
         // 计算开始的计算索引
         int start = (currentPage - 1) * rows;
         List<user> list = dao.findByPage(start,rows,condition);
         pb.setList(list);
-
-
-        // 4.计算总页码
-        int totalPage = (totalCount % rows) == 0 ? (totalCount / rows) : (totalCount / rows + 1);
-        pb.setTotalPage(totalPage);
-
-        // 防止最后一页还能点的情况
-        if (currentPage>=totalPage){
-            currentPage=totalPage-1;
-        }
-
-        // 5.设置参数(本来是在第二步的)
-        pb.setCurrentPage(currentPage);
-        pb.setRows(rows);
 
         return pb;
     }

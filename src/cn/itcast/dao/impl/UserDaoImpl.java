@@ -77,7 +77,7 @@ public class UserDaoImpl implements UserDao {
     // 查询总记录数的方法
     @Override
     public int findTotalCount(Map<String, String[]> condition) {
-        // 1.定义模板sql
+        // 1.定义模板sql，这里就是动态sql
         String sql = "select count(*) from user where 1=1";
         StringBuilder sb = new StringBuilder(sql);  // 可变类，速度更快
         // 2.遍历map
@@ -102,9 +102,9 @@ public class UserDaoImpl implements UserDao {
             }
         }
 
-        // 打印出toString，用于测试
-        System.out.println(sb.toString());
-        System.out.println(params);
+//        // 打印出toString，用于测试
+//        System.out.println(sb.toString());
+//        System.out.println(params);
 
         // 自动将结果转换为int型结果，并且返回
         return template.queryForObject(sb.toString(), Integer.class, params.toArray());
@@ -117,7 +117,7 @@ public class UserDaoImpl implements UserDao {
     public List<user> findByPage(int start, int rows, Map<String, String[]> condition) {
         String sql = "select * from user where 1 = 1";   // 分页查询
         StringBuilder sb = new StringBuilder(sql);  // 可变类，速度更快
-        // 2.遍历map
+        // 2.遍历map，keySet()是将所有map中的键存入集合中
         Set<String> keySet = condition.keySet();
 
         // 定义参数的集合
@@ -146,8 +146,8 @@ public class UserDaoImpl implements UserDao {
         // 添加分页查询的参数值
         params.add(start);
         params.add(rows);
-        System.out.println(params);
 
+        // StringBuilder都需要toString一下来转化为字符串的形式
         return template.query(sb.toString(), new BeanPropertyRowMapper<user>(user.class), params.toArray());
     }
 }

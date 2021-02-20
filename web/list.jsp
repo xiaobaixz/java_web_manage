@@ -84,18 +84,22 @@
             <%--左上角的查询form表单--%>
             <div style="float: left">
                 <%--上面的三个输入框的模糊查询--%>
-                <form class="form-inline" action="${pageContext.request.contextPath}/findUserByPageServlet" method="post">
+                <form class="form-inline" action="${pageContext.request.contextPath}/findUserByPageServlet"
+                      method="post">
                     <div class="form-group">
                         <label for="exampleInputName2">姓名</label>
-                        <input name="name" type="text" value="${condition.name[0]}" class="form-control" id="exampleInputName2">
+                        <input name="name" type="text" value="${condition.name[0]}" class="form-control"
+                               id="exampleInputName2">
                     </div>
                     <div class="form-group">
                         <label for="exampleInputEmail3">籍贯</label>
-                        <input name="address" type="text" value="${condition.address[0]}" class="form-control" id="exampleInputEmail3">
+                        <input name="address" type="text" value="${condition.address[0]}" class="form-control"
+                               id="exampleInputEmail3">
                     </div>
                     <div class="form-group">
                         <label for="exampleInputEmail4">Email</label>
-                        <input name="email" type="text" value="${condition.email[0]}" class="form-control" id="exampleInputEmail4">
+                        <input name="email" type="text" value="${condition.email[0]}" class="form-control"
+                               id="exampleInputEmail4">
                     </div>
                     <button type="submit" class="btn btn-default">查询</button>
                 </form>
@@ -173,8 +177,8 @@
 
                             <%--通过if判断是否处于当前页码--%>
                             <c:if test="${pb.currentPage == i}">
-                                <li class="active"><a
-                                        href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${i}&rows=5&name=${condition.name[0]}&address=${condition.address[0]}&email=${condition.email[0]}">${i}</a>
+                                <li class="active">
+                                    <a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${i}&rows=5&name=${condition.name[0]}&address=${condition.address[0]}&email=${condition.email[0]}">${i}</a>
                                 </li>
                             </c:if>
                             <c:if test="${pb.currentPage != i}">
@@ -186,15 +190,15 @@
 
 
                         <%--判断是最后一页的情况--%>
-                        <c:if test="${pb.currentPage == pb.totalPage}">
-                            <li class="disabled">
-                                <a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${i}&rows=5&name=${condition.name[0]}&address=${condition.address[0]}&email=${condition.email[0]}"
+                        <c:if test="${pb.currentPage != pb.totalPage}">
+                            <li>
+                                <a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${pb.currentPage + 1}&rows=5&name=${condition.name[0]}&address=${condition.address[0]}&email=${condition.email[0]}"
                                    aria-label="Next">
                                     <span aria-hidden="true">&raquo;</span>
                                 </a>
                             </li>
                         </c:if>
-                        <c:if test="${pb.currentPage != pb.totalPage}">
+                        <c:if test="${pb.currentPage == pb.totalPage}">
                             <li class="disabled">
                                 <a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${pb.currentPage + 1}&rows=5&name=${condition.name[0]}&address=${condition.address[0]}&email=${condition.email[0]}"
                                    aria-label="Next">
