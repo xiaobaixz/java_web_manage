@@ -22,7 +22,7 @@
                 var vcode = document.getElementById("vcode");
 
                 // 2.设置其src属性，加上时间戳就会让验证码每次刷新都不一样
-                // (每次访问nservlet都会产生一个随机的)
+                // (每次访问uservlet都会产生一个随机的)
                 vcode.src = "${pageContext.request.contextPath}/checkCodeServlet?time=" + new Date().getTime();
             }
         </script>

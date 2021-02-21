@@ -20,6 +20,8 @@ public class LoginServlet extends HttpServlet {
         // 1.设置编码
         request.setCharacterEncoding("utf-8");
 
+        System.out.println("我是loginServlet");
+
         // 2.获取数据
         // 2.1 获取页面中验证码数据
         String verifycode = request.getParameter("verifycode");

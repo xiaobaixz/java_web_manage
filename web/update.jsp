@@ -54,1369 +54,1369 @@
                     <label for="address">籍贯：</label>
                     <select name="address" id="address" class="form-control">
                         <c:if test="${user.address == '北京'}">
-  
-                                <option value="北京" selected>北京市</option>
-                                <option value="浙江省">浙江省</option>
-                                <option value="天津市">天津市</option>
-                                <option value="安徽省">安徽省</option>
-                                <option value="上海市">上海市</option>
-                                <option value="福建省">福建省</option>
-                                <option value="重庆市">重庆市</option>
-                                <option value="江西省">江西省</option>
-                                <option value="山东省">山东省</option>
-                                <option value="河南省">河南省</option>
-                                <option value="湖北省">湖北省</option>
-                                <option value="湖南省">湖南省</option>
-                                <option value="广东省">广东省</option>
-                                <option value="海南省">海南省</option>
-                                <option value="山西省">山西省</option>
-                                <option value="青海省">青海省</option>
-                                <option value="江苏省">江苏省</option>
-                                <option value="辽宁省">辽宁省</option>
-                                <option value="吉林省">吉林省</option>
-                                <option value="台湾省">台湾省</option>
-                                <option value="河北省">河北省</option>
-                                <option value="贵州省">贵州省</option>
-                                <option value="四川省">四川省</option>
-                                <option value="云南省">云南省</option>
-                                <option value="陕西省">陕西省</option>
-                                <option value="甘肃省">甘肃省</option>
-                                <option value="黑龙江省">黑龙江省</option>
-                                <option value="香港">香港</option>
-                                <option value="澳门">澳门</option>
-                                <option value="广西">广西</option>
-                                <option value="宁夏">宁夏</option>
-                                <option value="新疆">新疆</option>
-                                <option value="内蒙古">内蒙古</option>
-                                <option value="西藏">西藏</option>
-                            </select>
-                        </c:if>
 
-                        <c:if test="${user.address == '浙江省'}">
-  
-                                <option value="北京">北京市</option>
-                                <option value="浙江省" selected>浙江省</option>
-                                <option value="天津市">天津市</option>
-                                <option value="安徽省">安徽省</option>
-                                <option value="上海市">上海市</option>
-                                <option value="福建省">福建省</option>
-                                <option value="重庆市">重庆市</option>
-                                <option value="江西省">江西省</option>
-                                <option value="山东省">山东省</option>
-                                <option value="河南省">河南省</option>
-                                <option value="湖北省">湖北省</option>
-                                <option value="湖南省">湖南省</option>
-                                <option value="广东省">广东省</option>
-                                <option value="海南省">海南省</option>
-                                <option value="山西省">山西省</option>
-                                <option value="青海省">青海省</option>
-                                <option value="江苏省">江苏省</option>
-                                <option value="辽宁省">辽宁省</option>
-                                <option value="吉林省">吉林省</option>
-                                <option value="台湾省">台湾省</option>
-                                <option value="河北省">河北省</option>
-                                <option value="贵州省">贵州省</option>
-                                <option value="四川省">四川省</option>
-                                <option value="云南省">云南省</option>
-                                <option value="陕西省">陕西省</option>
-                                <option value="甘肃省">甘肃省</option>
-                                <option value="黑龙江省">黑龙江省</option>
-                                <option value="香港">香港</option>
-                                <option value="澳门">澳门</option>
-                                <option value="广西">广西</option>
-                                <option value="宁夏">宁夏</option>
-                                <option value="新疆">新疆</option>
-                                <option value="内蒙古">内蒙古</option>
-                                <option value="西藏">西藏</option>
-                            </select>
-                        </c:if>
+                        <option value="北京" selected>北京市</option>
+                        <option value="浙江省">浙江省</option>
+                        <option value="天津市">天津市</option>
+                        <option value="安徽省">安徽省</option>
+                        <option value="上海市">上海市</option>
+                        <option value="福建省">福建省</option>
+                        <option value="重庆市">重庆市</option>
+                        <option value="江西省">江西省</option>
+                        <option value="山东省">山东省</option>
+                        <option value="河南省">河南省</option>
+                        <option value="湖北省">湖北省</option>
+                        <option value="湖南省">湖南省</option>
+                        <option value="广东省">广东省</option>
+                        <option value="海南省">海南省</option>
+                        <option value="山西省">山西省</option>
+                        <option value="青海省">青海省</option>
+                        <option value="江苏省">江苏省</option>
+                        <option value="辽宁省">辽宁省</option>
+                        <option value="吉林省">吉林省</option>
+                        <option value="台湾省">台湾省</option>
+                        <option value="河北省">河北省</option>
+                        <option value="贵州省">贵州省</option>
+                        <option value="四川省">四川省</option>
+                        <option value="云南省">云南省</option>
+                        <option value="陕西省">陕西省</option>
+                        <option value="甘肃省">甘肃省</option>
+                        <option value="黑龙江省">黑龙江省</option>
+                        <option value="香港">香港</option>
+                        <option value="澳门">澳门</option>
+                        <option value="广西">广西</option>
+                        <option value="宁夏">宁夏</option>
+                        <option value="新疆">新疆</option>
+                        <option value="内蒙古">内蒙古</option>
+                        <option value="西藏">西藏</option>
+                    </select>
+                    </c:if>
 
-                        <c:if test="${user.address == '天津市'}">
-  
-                                <option value="北京">北京市</option>
-                                <option value="浙江省">浙江省</option>
-                                <option value="天津市" selected>天津市</option>
-                                <option value="安徽省">安徽省</option>
-                                <option value="上海市">上海市</option>
-                                <option value="福建省">福建省</option>
-                                <option value="重庆市">重庆市</option>
-                                <option value="江西省">江西省</option>
-                                <option value="山东省">山东省</option>
-                                <option value="河南省">河南省</option>
-                                <option value="湖北省">湖北省</option>
-                                <option value="湖南省">湖南省</option>
-                                <option value="广东省">广东省</option>
-                                <option value="海南省">海南省</option>
-                                <option value="山西省">山西省</option>
-                                <option value="青海省">青海省</option>
-                                <option value="江苏省">江苏省</option>
-                                <option value="辽宁省">辽宁省</option>
-                                <option value="吉林省">吉林省</option>
-                                <option value="台湾省">台湾省</option>
-                                <option value="河北省">河北省</option>
-                                <option value="贵州省">贵州省</option>
-                                <option value="四川省">四川省</option>
-                                <option value="云南省">云南省</option>
-                                <option value="陕西省">陕西省</option>
-                                <option value="甘肃省">甘肃省</option>
-                                <option value="黑龙江省">黑龙江省</option>
-                                <option value="香港">香港</option>
-                                <option value="澳门">澳门</option>
-                                <option value="广西">广西</option>
-                                <option value="宁夏">宁夏</option>
-                                <option value="新疆">新疆</option>
-                                <option value="内蒙古">内蒙</option>
-                                <option value="西藏">西藏</option>
-                            </select>
-                        </c:if>
+                    <c:if test="${user.address == '浙江省'}">
 
-                        <c:if test="${user.address == '安徽省'}">
-  
-                                <option value="北京">北京市</option>
-                                <option value="浙江省">浙江省</option>
-                                <option value="天津市">天津市</option>
-                                <option value="安徽省" selected>安徽省</option>
-                                <option value="上海市">上海市</option>
-                                <option value="福建省">福建省</option>
-                                <option value="重庆市">重庆市</option>
-                                <option value="江西省">江西省</option>
-                                <option value="山东省">山东省</option>
-                                <option value="河南省">河南省</option>
-                                <option value="湖北省">湖北省</option>
-                                <option value="湖南省">湖南省</option>
-                                <option value="广东省">广东省</option>
-                                <option value="海南省">海南省</option>
-                                <option value="山西省">山西省</option>
-                                <option value="青海省">青海省</option>
-                                <option value="江苏省">江苏省</option>
-                                <option value="辽宁省">辽宁省</option>
-                                <option value="吉林省">吉林省</option>
-                                <option value="台湾省">台湾省</option>
-                                <option value="河北省">河北省</option>
-                                <option value="贵州省">贵州省</option>
-                                <option value="四川省">四川省</option>
-                                <option value="云南省">云南省</option>
-                                <option value="陕西省">陕西省</option>
-                                <option value="甘肃省">甘肃省</option>
-                                <option value="黑龙江省">黑龙江省</option>
-                                <option value="香港">香港</option>
-                                <option value="澳门">澳门</option>
-                                <option value="广西">广西</option>
-                                <option value="宁夏">宁夏</option>
-                                <option value="新疆">新疆</option>
-                                <option value="内蒙古">内蒙古</option>
-                                <option value="西藏">西藏</option>
-                            </select>
-                        </c:if>
+                        <option value="北京">北京市</option>
+                        <option value="浙江省" selected>浙江省</option>
+                        <option value="天津市">天津市</option>
+                        <option value="安徽省">安徽省</option>
+                        <option value="上海市">上海市</option>
+                        <option value="福建省">福建省</option>
+                        <option value="重庆市">重庆市</option>
+                        <option value="江西省">江西省</option>
+                        <option value="山东省">山东省</option>
+                        <option value="河南省">河南省</option>
+                        <option value="湖北省">湖北省</option>
+                        <option value="湖南省">湖南省</option>
+                        <option value="广东省">广东省</option>
+                        <option value="海南省">海南省</option>
+                        <option value="山西省">山西省</option>
+                        <option value="青海省">青海省</option>
+                        <option value="江苏省">江苏省</option>
+                        <option value="辽宁省">辽宁省</option>
+                        <option value="吉林省">吉林省</option>
+                        <option value="台湾省">台湾省</option>
+                        <option value="河北省">河北省</option>
+                        <option value="贵州省">贵州省</option>
+                        <option value="四川省">四川省</option>
+                        <option value="云南省">云南省</option>
+                        <option value="陕西省">陕西省</option>
+                        <option value="甘肃省">甘肃省</option>
+                        <option value="黑龙江省">黑龙江省</option>
+                        <option value="香港">香港</option>
+                        <option value="澳门">澳门</option>
+                        <option value="广西">广西</option>
+                        <option value="宁夏">宁夏</option>
+                        <option value="新疆">新疆</option>
+                        <option value="内蒙古">内蒙古</option>
+                        <option value="西藏">西藏</option>
+                        </select>
+                    </c:if>
 
-                        <c:if test="${user.address == '上海市'}">
-  
-                                <option value="北京">北京市</option>
-                                <option value="浙江省">浙江省</option>
-                                <option value="天津市">天津市</option>
-                                <option value="安徽省">安徽省</option>
-                                <option value="上海市" selected>上海市</option>
-                                <option value="福建省">福建省</option>
-                                <option value="重庆市">重庆市</option>
-                                <option value="江西省">江西省</option>
-                                <option value="山东省">山东省</option>
-                                <option value="河南省">河南省</option>
-                                <option value="湖北省">湖北省</option>
-                                <option value="湖南省">湖南省</option>
-                                <option value="广东省">广东省</option>
-                                <option value="海南省">海南省</option>
-                                <option value="山西省">山西省</option>
-                                <option value="青海省">青海省</option>
-                                <option value="江苏省">江苏省</option>
-                                <option value="辽宁省">辽宁省</option>
-                                <option value="吉林省">吉林省</option>
-                                <option value="台湾省">台湾省</option>
-                                <option value="河北省">河北省</option>
-                                <option value="贵州省">贵州省</option>
-                                <option value="四川省">四川省</option>
-                                <option value="云南省">云南省</option>
-                                <option value="陕西省">陕西省</option>
-                                <option value="甘肃省">甘肃省</option>
-                                <option value="黑龙江省">黑龙江省</option>
-                                <option value="香港">香港</option>
-                                <option value="澳门">澳门</option>
-                                <option value="广西">广西</option>
-                                <option value="宁夏">宁夏</option>
-                                <option value="新疆">新疆</option>
-                                <option value="内蒙古">内蒙古</option>
-                                <option value="西藏">西藏</option>
-                            </select>
-                        </c:if>
+                    <c:if test="${user.address == '天津市'}">
 
-                        <c:if test="${user.address == '福建省'}">
-  
-                                <option value="北京">北京市</option>
-                                <option value="浙江省">浙江省</option>
-                                <option value="天津市">天津市</option>
-                                <option value="安徽省">安徽省</option>
-                                <option value="上海市">上海市</option>
-                                <option value="福建省" selected>福建省</option>
-                                <option value="重庆市">重庆市</option>
-                                <option value="江西省">江西省</option>
-                                <option value="山东省">山东省</option>
-                                <option value="河南省">河南省</option>
-                                <option value="湖北省">湖北省</option>
-                                <option value="湖南省">湖南省</option>
-                                <option value="广东省">广东省</option>
-                                <option value="海南省">海南省</option>
-                                <option value="山西省">山西省</option>
-                                <option value="青海省">青海省</option>
-                                <option value="江苏省">江苏省</option>
-                                <option value="辽宁省">辽宁省</option>
-                                <option value="吉林省">吉林省</option>
-                                <option value="台湾省">台湾省</option>
-                                <option value="河北省">河北省</option>
-                                <option value="贵州省">贵州省</option>
-                                <option value="四川省">四川省</option>
-                                <option value="云南省">云南省</option>
-                                <option value="陕西省">陕西省</option>
-                                <option value="甘肃省">甘肃省</option>
-                                <option value="黑龙江省">黑龙江省</option>
-                                <option value="香港">香港</option>
-                                <option value="澳门">澳门</option>
-                                <option value="广西">广西</option>
-                                <option value="宁夏">宁夏</option>
-                                <option value="新疆">新疆</option>
-                                <option value="内蒙古">内蒙古</option>
-                                <option value="西藏">西藏</option>
-                            </select>
-                        </c:if>
+                        <option value="北京">北京市</option>
+                        <option value="浙江省">浙江省</option>
+                        <option value="天津市" selected>天津市</option>
+                        <option value="安徽省">安徽省</option>
+                        <option value="上海市">上海市</option>
+                        <option value="福建省">福建省</option>
+                        <option value="重庆市">重庆市</option>
+                        <option value="江西省">江西省</option>
+                        <option value="山东省">山东省</option>
+                        <option value="河南省">河南省</option>
+                        <option value="湖北省">湖北省</option>
+                        <option value="湖南省">湖南省</option>
+                        <option value="广东省">广东省</option>
+                        <option value="海南省">海南省</option>
+                        <option value="山西省">山西省</option>
+                        <option value="青海省">青海省</option>
+                        <option value="江苏省">江苏省</option>
+                        <option value="辽宁省">辽宁省</option>
+                        <option value="吉林省">吉林省</option>
+                        <option value="台湾省">台湾省</option>
+                        <option value="河北省">河北省</option>
+                        <option value="贵州省">贵州省</option>
+                        <option value="四川省">四川省</option>
+                        <option value="云南省">云南省</option>
+                        <option value="陕西省">陕西省</option>
+                        <option value="甘肃省">甘肃省</option>
+                        <option value="黑龙江省">黑龙江省</option>
+                        <option value="香港">香港</option>
+                        <option value="澳门">澳门</option>
+                        <option value="广西">广西</option>
+                        <option value="宁夏">宁夏</option>
+                        <option value="新疆">新疆</option>
+                        <option value="内蒙古">内蒙</option>
+                        <option value="西藏">西藏</option>
+                        </select>
+                    </c:if>
 
-                        <c:if test="${user.address == '重庆市'}">
-  
-                                <option value="北京">北京市</option>
-                                <option value="浙江省">浙江省</option>
-                                <option value="天津市">天津市</option>
-                                <option value="安徽省">安徽省</option>
-                                <option value="上海市">上海市</option>
-                                <option value="福建省">福建省</option>
-                                <option value="重庆市" selected>重庆市</option>
-                                <option value="江西省">江西省</option>
-                                <option value="山东省">山东省</option>
-                                <option value="河南省">河南省</option>
-                                <option value="湖北省">湖北省</option>
-                                <option value="湖南省">湖南省</option>
-                                <option value="广东省">广东省</option>
-                                <option value="海南省">海南省</option>
-                                <option value="山西省">山西省</option>
-                                <option value="青海省">青海省</option>
-                                <option value="江苏省">江苏省</option>
-                                <option value="辽宁省">辽宁省</option>
-                                <option value="吉林省">吉林省</option>
-                                <option value="台湾省">台湾省</option>
-                                <option value="河北省">河北省</option>
-                                <option value="贵州省">贵州省</option>
-                                <option value="四川省">四川省</option>
-                                <option value="云南省">云南省</option>
-                                <option value="陕西省">陕西省</option>
-                                <option value="甘肃省">甘肃省</option>
-                                <option value="黑龙江省">黑龙江省</option>
-                                <option value="香港">香港</option>
-                                <option value="澳门">澳门</option>
-                                <option value="广西">广西</option>
-                                <option value="宁夏">宁夏</option>
-                                <option value="新疆">新疆</option>
-                                <option value="内蒙古">内蒙古</option>
-                                <option value="西藏">西藏</option>
-                            </select>
-                        </c:if>
+                    <c:if test="${user.address == '安徽省'}">
 
-                        <c:if test="${user.address == '江西省'}">
-  
-                                <option value="北京">北京市</option>
-                                <option value="浙江省">浙江省</option>
-                                <option value="天津市">天津市</option>
-                                <option value="安徽省">安徽省</option>
-                                <option value="上海市">上海市</option>
-                                <option value="福建省">福建省</option>
-                                <option value="重庆市">重庆市</option>
-                                <option value="江西省" selected>江西省</option>
-                                <option value="山东省">山东省</option>
-                                <option value="河南省">河南省</option>
-                                <option value="湖北省">湖北省</option>
-                                <option value="湖南省">湖南省</option>
-                                <option value="广东省">广东省</option>
-                                <option value="海南省">海南省</option>
-                                <option value="山西省">山西省</option>
-                                <option value="青海省">青海省</option>
-                                <option value="江苏省">江苏省</option>
-                                <option value="辽宁省">辽宁省</option>
-                                <option value="吉林省">吉林省</option>
-                                <option value="台湾省">台湾省</option>
-                                <option value="河北省">河北省</option>
-                                <option value="贵州省">贵州省</option>
-                                <option value="四川省">四川省</option>
-                                <option value="云南省">云南省</option>
-                                <option value="陕西省">陕西省</option>
-                                <option value="甘肃省">甘肃省</option>
-                                <option value="黑龙江省">黑龙江省</option>
-                                <option value="香港">香港</option>
-                                <option value="澳门">澳门</option>
-                                <option value="广西">广西</option>
-                                <option value="宁夏">宁夏</option>
-                                <option value="新疆">新疆</option>
-                                <option value="内蒙古">内蒙古</option>
-                                <option value="西藏">西藏</option>
-                            </select>
-                        </c:if>
+                        <option value="北京">北京市</option>
+                        <option value="浙江省">浙江省</option>
+                        <option value="天津市">天津市</option>
+                        <option value="安徽省" selected>安徽省</option>
+                        <option value="上海市">上海市</option>
+                        <option value="福建省">福建省</option>
+                        <option value="重庆市">重庆市</option>
+                        <option value="江西省">江西省</option>
+                        <option value="山东省">山东省</option>
+                        <option value="河南省">河南省</option>
+                        <option value="湖北省">湖北省</option>
+                        <option value="湖南省">湖南省</option>
+                        <option value="广东省">广东省</option>
+                        <option value="海南省">海南省</option>
+                        <option value="山西省">山西省</option>
+                        <option value="青海省">青海省</option>
+                        <option value="江苏省">江苏省</option>
+                        <option value="辽宁省">辽宁省</option>
+                        <option value="吉林省">吉林省</option>
+                        <option value="台湾省">台湾省</option>
+                        <option value="河北省">河北省</option>
+                        <option value="贵州省">贵州省</option>
+                        <option value="四川省">四川省</option>
+                        <option value="云南省">云南省</option>
+                        <option value="陕西省">陕西省</option>
+                        <option value="甘肃省">甘肃省</option>
+                        <option value="黑龙江省">黑龙江省</option>
+                        <option value="香港">香港</option>
+                        <option value="澳门">澳门</option>
+                        <option value="广西">广西</option>
+                        <option value="宁夏">宁夏</option>
+                        <option value="新疆">新疆</option>
+                        <option value="内蒙古">内蒙古</option>
+                        <option value="西藏">西藏</option>
+                        </select>
+                    </c:if>
 
-                        <c:if test="${user.address == '山东省'}">
-  
-                                <option value="北京">北京市</option>
-                                <option value="浙江省">浙江省</option>
-                                <option value="天津市">天津市</option>
-                                <option value="安徽省">安徽省</option>
-                                <option value="上海市">上海市</option>
-                                <option value="福建省">福建省</option>
-                                <option value="重庆市">重庆市</option>
-                                <option value="江西省">江西省</option>
-                                <option value="山东省" selected>山东省</option>
-                                <option value="河南省">河南省</option>
-                                <option value="湖北省">湖北省</option>
-                                <option value="湖南省">湖南省</option>
-                                <option value="广东省">广东省</option>
-                                <option value="海南省">海南省</option>
-                                <option value="山西省">山西省</option>
-                                <option value="青海省">青海省</option>
-                                <option value="江苏省">江苏省</option>
-                                <option value="辽宁省">辽宁省</option>
-                                <option value="吉林省">吉林省</option>
-                                <option value="台湾省">台湾省</option>
-                                <option value="河北省">河北省</option>
-                                <option value="贵州省">贵州省</option>
-                                <option value="四川省">四川省</option>
-                                <option value="云南省">云南省</option>
-                                <option value="陕西省">陕西省</option>
-                                <option value="甘肃省">甘肃省</option>
-                                <option value="黑龙江省">黑龙江省</option>
-                                <option value="香港">香港</option>
-                                <option value="澳门">澳门</option>
-                                <option value="广西">广西</option>
-                                <option value="宁夏">宁夏</option>
-                                <option value="新疆">新疆</option>
-                                <option value="内蒙古">内蒙古</option>
-                                <option value="西藏">西藏</option>
-                            </select>
-                        </c:if>
+                    <c:if test="${user.address == '上海市'}">
 
-                        <c:if test="${user.address == '河南省'}">
-  
-                                <option value="北京">北京市</option>
-                                <option value="浙江省">浙江省</option>
-                                <option value="天津市">天津市</option>
-                                <option value="安徽省">安徽省</option>
-                                <option value="上海市">上海市</option>
-                                <option value="福建省">福建省</option>
-                                <option value="重庆市">重庆市</option>
-                                <option value="江西省">江西省</option>
-                                <option value="山东省">山东省</option>
-                                <option value="河南省" selected>河南省</option>
-                                <option value="湖北省">湖北省</option>
-                                <option value="湖南省">湖南省</option>
-                                <option value="广东省">广东省</option>
-                                <option value="海南省">海南省</option>
-                                <option value="山西省">山西省</option>
-                                <option value="青海省">青海省</option>
-                                <option value="江苏省">江苏省</option>
-                                <option value="辽宁省">辽宁省</option>
-                                <option value="吉林省">吉林省</option>
-                                <option value="台湾省">台湾省</option>
-                                <option value="河北省">河北省</option>
-                                <option value="贵州省">贵州省</option>
-                                <option value="四川省">四川省</option>
-                                <option value="云南省">云南省</option>
-                                <option value="陕西省">陕西省</option>
-                                <option value="甘肃省">甘肃省</option>
-                                <option value="黑龙江省">黑龙江省</option>
-                                <option value="香港">香港</option>
-                                <option value="澳门">澳门</option>
-                                <option value="广西">广西</option>
-                                <option value="宁夏">宁夏</option>
-                                <option value="新疆">新疆</option>
-                                <option value="内蒙古">内蒙古</option>
-                                <option value="西藏">西藏</option>
-                            </select>
-                        </c:if>
+                        <option value="北京">北京市</option>
+                        <option value="浙江省">浙江省</option>
+                        <option value="天津市">天津市</option>
+                        <option value="安徽省">安徽省</option>
+                        <option value="上海市" selected>上海市</option>
+                        <option value="福建省">福建省</option>
+                        <option value="重庆市">重庆市</option>
+                        <option value="江西省">江西省</option>
+                        <option value="山东省">山东省</option>
+                        <option value="河南省">河南省</option>
+                        <option value="湖北省">湖北省</option>
+                        <option value="湖南省">湖南省</option>
+                        <option value="广东省">广东省</option>
+                        <option value="海南省">海南省</option>
+                        <option value="山西省">山西省</option>
+                        <option value="青海省">青海省</option>
+                        <option value="江苏省">江苏省</option>
+                        <option value="辽宁省">辽宁省</option>
+                        <option value="吉林省">吉林省</option>
+                        <option value="台湾省">台湾省</option>
+                        <option value="河北省">河北省</option>
+                        <option value="贵州省">贵州省</option>
+                        <option value="四川省">四川省</option>
+                        <option value="云南省">云南省</option>
+                        <option value="陕西省">陕西省</option>
+                        <option value="甘肃省">甘肃省</option>
+                        <option value="黑龙江省">黑龙江省</option>
+                        <option value="香港">香港</option>
+                        <option value="澳门">澳门</option>
+                        <option value="广西">广西</option>
+                        <option value="宁夏">宁夏</option>
+                        <option value="新疆">新疆</option>
+                        <option value="内蒙古">内蒙古</option>
+                        <option value="西藏">西藏</option>
+                        </select>
+                    </c:if>
 
-                        <c:if test="${user.address == '湖北省'}">
-  
-                                <option value="北京">北京市</option>
-                                <option value="浙江省">浙江省</option>
-                                <option value="天津市">天津市</option>
-                                <option value="安徽省">安徽省</option>
-                                <option value="上海市">上海市</option>
-                                <option value="福建省">福建省</option>
-                                <option value="重庆市">重庆市</option>
-                                <option value="江西省">江西省</option>
-                                <option value="山东省">山东省</option>
-                                <option value="河南省">河南省</option>
-                                <option value="湖北省" selected>湖北省</option>
-                                <option value="湖南省">湖南省</option>
-                                <option value="广东省">广东省</option>
-                                <option value="海南省">海南省</option>
-                                <option value="山西省">山西省</option>
-                                <option value="青海省">青海省</option>
-                                <option value="江苏省">江苏省</option>
-                                <option value="辽宁省">辽宁省</option>
-                                <option value="吉林省">吉林省</option>
-                                <option value="台湾省">台湾省</option>
-                                <option value="河北省">河北省</option>
-                                <option value="贵州省">贵州省</option>
-                                <option value="四川省">四川省</option>
-                                <option value="云南省">云南省</option>
-                                <option value="陕西省">陕西省</option>
-                                <option value="甘肃省">甘肃省</option>
-                                <option value="黑龙江省">黑龙江省</option>
-                                <option value="香港">香港</option>
-                                <option value="澳门">澳门</option>
-                                <option value="广西">广西</option>
-                                <option value="宁夏">宁夏</option>
-                                <option value="新疆">新疆</option>
-                                <option value="内蒙古">内蒙古</option>
-                                <option value="西藏">西藏</option>
-                            </select>
-                        </c:if>
+                    <c:if test="${user.address == '福建省'}">
 
-                        <c:if test="${user.address == '湖南省'}">
-  
-                                <option value="北京">北京市</option>
-                                <option value="浙江省">浙江省</option>
-                                <option value="天津市">天津市</option>
-                                <option value="安徽省">安徽省</option>
-                                <option value="上海市">上海市</option>
-                                <option value="福建省">福建省</option>
-                                <option value="重庆市">重庆市</option>
-                                <option value="江西省">江西省</option>
-                                <option value="山东省">山东省</option>
-                                <option value="河南省">河南省</option>
-                                <option value="湖北省">湖北省</option>
-                                <option value="湖南省" selected>湖南省</option>
-                                <option value="广东省">广东省</option>
-                                <option value="海南省">海南省</option>
-                                <option value="山西省">山西省</option>
-                                <option value="青海省">青海省</option>
-                                <option value="江苏省">江苏省</option>
-                                <option value="辽宁省">辽宁省</option>
-                                <option value="吉林省">吉林省</option>
-                                <option value="台湾省">台湾省</option>
-                                <option value="河北省">河北省</option>
-                                <option value="贵州省">贵州省</option>
-                                <option value="四川省">四川省</option>
-                                <option value="云南省">云南省</option>
-                                <option value="陕西省">陕西省</option>
-                                <option value="甘肃省">甘肃省</option>
-                                <option value="黑龙江省">黑龙江省</option>
-                                <option value="香港">香港</option>
-                                <option value="澳门">澳门</option>
-                                <option value="广西">广西</option>
-                                <option value="宁夏">宁夏</option>
-                                <option value="新疆">新疆</option>
-                                <option value="内蒙古">内蒙古</option>
-                                <option value="西藏">西藏</option>
-                            </select>
-                        </c:if>
+                        <option value="北京">北京市</option>
+                        <option value="浙江省">浙江省</option>
+                        <option value="天津市">天津市</option>
+                        <option value="安徽省">安徽省</option>
+                        <option value="上海市">上海市</option>
+                        <option value="福建省" selected>福建省</option>
+                        <option value="重庆市">重庆市</option>
+                        <option value="江西省">江西省</option>
+                        <option value="山东省">山东省</option>
+                        <option value="河南省">河南省</option>
+                        <option value="湖北省">湖北省</option>
+                        <option value="湖南省">湖南省</option>
+                        <option value="广东省">广东省</option>
+                        <option value="海南省">海南省</option>
+                        <option value="山西省">山西省</option>
+                        <option value="青海省">青海省</option>
+                        <option value="江苏省">江苏省</option>
+                        <option value="辽宁省">辽宁省</option>
+                        <option value="吉林省">吉林省</option>
+                        <option value="台湾省">台湾省</option>
+                        <option value="河北省">河北省</option>
+                        <option value="贵州省">贵州省</option>
+                        <option value="四川省">四川省</option>
+                        <option value="云南省">云南省</option>
+                        <option value="陕西省">陕西省</option>
+                        <option value="甘肃省">甘肃省</option>
+                        <option value="黑龙江省">黑龙江省</option>
+                        <option value="香港">香港</option>
+                        <option value="澳门">澳门</option>
+                        <option value="广西">广西</option>
+                        <option value="宁夏">宁夏</option>
+                        <option value="新疆">新疆</option>
+                        <option value="内蒙古">内蒙古</option>
+                        <option value="西藏">西藏</option>
+                        </select>
+                    </c:if>
 
-                        <c:if test="${user.address == '广东省'}">
-  
-                                <option value="北京">北京市</option>
-                                <option value="浙江省">浙江省</option>
-                                <option value="天津市">天津市</option>
-                                <option value="安徽省">安徽省</option>
-                                <option value="上海市">上海市</option>
-                                <option value="福建省">福建省</option>
-                                <option value="重庆市">重庆市</option>
-                                <option value="江西省">江西省</option>
-                                <option value="山东省">山东省</option>
-                                <option value="河南省">河南省</option>
-                                <option value="湖北省">湖北省</option>
-                                <option value="湖南省">湖南省</option>
-                                <option value="广东省" selected>广东省</option>
-                                <option value="海南省">海南省</option>
-                                <option value="山西省">山西省</option>
-                                <option value="青海省">青海省</option>
-                                <option value="江苏省">江苏省</option>
-                                <option value="辽宁省">辽宁省</option>
-                                <option value="吉林省">吉林省</option>
-                                <option value="台湾省">台湾省</option>
-                                <option value="河北省">河北省</option>
-                                <option value="贵州省">贵州省</option>
-                                <option value="四川省">四川省</option>
-                                <option value="云南省">云南省</option>
-                                <option value="陕西省">陕西省</option>
-                                <option value="甘肃省">甘肃省</option>
-                                <option value="黑龙江省">黑龙江省</option>
-                                <option value="香港">香港</option>
-                                <option value="澳门">澳门</option>
-                                <option value="广西">广西</option>
-                                <option value="宁夏">宁夏</option>
-                                <option value="新疆">新疆</option>
-                                <option value="内蒙古">内蒙古</option>
-                                <option value="西藏">西藏</option>
-                            </select>
-                        </c:if>
+                    <c:if test="${user.address == '重庆市'}">
 
-                        <c:if test="${user.address == '海南省'}">
-  
-                                <option value="北京">北京市</option>
-                                <option value="浙江省">浙江省</option>
-                                <option value="天津市">天津市</option>
-                                <option value="安徽省">安徽省</option>
-                                <option value="上海市">上海市</option>
-                                <option value="福建省">福建省</option>
-                                <option value="重庆市">重庆市</option>
-                                <option value="江西省">江西省</option>
-                                <option value="山东省">山东省</option>
-                                <option value="河南省">河南省</option>
-                                <option value="湖北省">湖北省</option>
-                                <option value="湖南省">湖南省</option>
-                                <option value="广东省">广东省</option>
-                                <option value="海南省" selected>海南省</option>
-                                <option value="山西省">山西省</option>
-                                <option value="青海省">青海省</option>
-                                <option value="江苏省">江苏省</option>
-                                <option value="辽宁省">辽宁省</option>
-                                <option value="吉林省">吉林省</option>
-                                <option value="台湾省">台湾省</option>
-                                <option value="河北省">河北省</option>
-                                <option value="贵州省">贵州省</option>
-                                <option value="四川省">四川省</option>
-                                <option value="云南省">云南省</option>
-                                <option value="陕西省">陕西省</option>
-                                <option value="甘肃省">甘肃省</option>
-                                <option value="黑龙江省">黑龙江省</option>
-                                <option value="香港">香港</option>
-                                <option value="澳门">澳门</option>
-                                <option value="广西">广西</option>
-                                <option value="宁夏">宁夏</option>
-                                <option value="新疆">新疆</option>
-                                <option value="内蒙古">内蒙古</option>
-                                <option value="西藏">西藏</option>
-                            </select>
-                        </c:if>
+                        <option value="北京">北京市</option>
+                        <option value="浙江省">浙江省</option>
+                        <option value="天津市">天津市</option>
+                        <option value="安徽省">安徽省</option>
+                        <option value="上海市">上海市</option>
+                        <option value="福建省">福建省</option>
+                        <option value="重庆市" selected>重庆市</option>
+                        <option value="江西省">江西省</option>
+                        <option value="山东省">山东省</option>
+                        <option value="河南省">河南省</option>
+                        <option value="湖北省">湖北省</option>
+                        <option value="湖南省">湖南省</option>
+                        <option value="广东省">广东省</option>
+                        <option value="海南省">海南省</option>
+                        <option value="山西省">山西省</option>
+                        <option value="青海省">青海省</option>
+                        <option value="江苏省">江苏省</option>
+                        <option value="辽宁省">辽宁省</option>
+                        <option value="吉林省">吉林省</option>
+                        <option value="台湾省">台湾省</option>
+                        <option value="河北省">河北省</option>
+                        <option value="贵州省">贵州省</option>
+                        <option value="四川省">四川省</option>
+                        <option value="云南省">云南省</option>
+                        <option value="陕西省">陕西省</option>
+                        <option value="甘肃省">甘肃省</option>
+                        <option value="黑龙江省">黑龙江省</option>
+                        <option value="香港">香港</option>
+                        <option value="澳门">澳门</option>
+                        <option value="广西">广西</option>
+                        <option value="宁夏">宁夏</option>
+                        <option value="新疆">新疆</option>
+                        <option value="内蒙古">内蒙古</option>
+                        <option value="西藏">西藏</option>
+                        </select>
+                    </c:if>
 
-                        <c:if test="${user.address == '山西省'}">
-  
-                                <option value="北京">北京市</option>
-                                <option value="浙江省">浙江省</option>
-                                <option value="天津市">天津市</option>
-                                <option value="安徽省">安徽省</option>
-                                <option value="上海市">上海市</option>
-                                <option value="福建省">福建省</option>
-                                <option value="重庆市">重庆市</option>
-                                <option value="江西省">江西省</option>
-                                <option value="山东省">山东省</option>
-                                <option value="河南省">河南省</option>
-                                <option value="湖北省">湖北省</option>
-                                <option value="湖南省">湖南省</option>
-                                <option value="广东省">广东省</option>
-                                <option value="海南省">海南省</option>
-                                <option value="山西省" selected>山西省</option>
-                                <option value="青海省">青海省</option>
-                                <option value="江苏省">江苏省</option>
-                                <option value="辽宁省">辽宁省</option>
-                                <option value="吉林省">吉林省</option>
-                                <option value="台湾省">台湾省</option>
-                                <option value="河北省">河北省</option>
-                                <option value="贵州省">贵州省</option>
-                                <option value="四川省">四川省</option>
-                                <option value="云南省">云南省</option>
-                                <option value="陕西省">陕西省</option>
-                                <option value="甘肃省">甘肃省</option>
-                                <option value="黑龙江省">黑龙江省</option>
-                                <option value="香港">香港</option>
-                                <option value="澳门">澳门</option>
-                                <option value="广西">广西</option>
-                                <option value="宁夏">宁夏</option>
-                                <option value="新疆">新疆</option>
-                                <option value="内蒙古">内蒙古</option>
-                                <option value="西藏">西藏</option>
-                            </select>
-                        </c:if>
+                    <c:if test="${user.address == '江西省'}">
 
-                        <c:if test="${user.address == '青海省'}">
-  
-                                <option value="北京">北京市</option>
-                                <option value="浙江省">浙江省</option>
-                                <option value="天津市">天津市</option>
-                                <option value="安徽省">安徽省</option>
-                                <option value="上海市">上海市</option>
-                                <option value="福建省">福建省</option>
-                                <option value="重庆市">重庆市</option>
-                                <option value="江西省">江西省</option>
-                                <option value="山东省">山东省</option>
-                                <option value="河南省">河南省</option>
-                                <option value="湖北省">湖北省</option>
-                                <option value="湖南省">湖南省</option>
-                                <option value="广东省">广东省</option>
-                                <option value="海南省">海南省</option>
-                                <option value="山西省">山西省</option>
-                                <option value="青海省" selected>青海省</option>
-                                <option value="江苏省">江苏省</option>
-                                <option value="辽宁省">辽宁省</option>
-                                <option value="吉林省">吉林省</option>
-                                <option value="台湾省">台湾省</option>
-                                <option value="河北省">河北省</option>
-                                <option value="贵州省">贵州省</option>
-                                <option value="四川省">四川省</option>
-                                <option value="云南省">云南省</option>
-                                <option value="陕西省">陕西省</option>
-                                <option value="甘肃省">甘肃省</option>
-                                <option value="黑龙江省">黑龙江省</option>
-                                <option value="香港">香港</option>
-                                <option value="澳门">澳门</option>
-                                <option value="广西">广西</option>
-                                <option value="宁夏">宁夏</option>
-                                <option value="新疆">新疆</option>
-                                <option value="内蒙古">内蒙古</option>
-                                <option value="西藏">西藏</option>
-                            </select>
-                        </c:if>
+                        <option value="北京">北京市</option>
+                        <option value="浙江省">浙江省</option>
+                        <option value="天津市">天津市</option>
+                        <option value="安徽省">安徽省</option>
+                        <option value="上海市">上海市</option>
+                        <option value="福建省">福建省</option>
+                        <option value="重庆市">重庆市</option>
+                        <option value="江西省" selected>江西省</option>
+                        <option value="山东省">山东省</option>
+                        <option value="河南省">河南省</option>
+                        <option value="湖北省">湖北省</option>
+                        <option value="湖南省">湖南省</option>
+                        <option value="广东省">广东省</option>
+                        <option value="海南省">海南省</option>
+                        <option value="山西省">山西省</option>
+                        <option value="青海省">青海省</option>
+                        <option value="江苏省">江苏省</option>
+                        <option value="辽宁省">辽宁省</option>
+                        <option value="吉林省">吉林省</option>
+                        <option value="台湾省">台湾省</option>
+                        <option value="河北省">河北省</option>
+                        <option value="贵州省">贵州省</option>
+                        <option value="四川省">四川省</option>
+                        <option value="云南省">云南省</option>
+                        <option value="陕西省">陕西省</option>
+                        <option value="甘肃省">甘肃省</option>
+                        <option value="黑龙江省">黑龙江省</option>
+                        <option value="香港">香港</option>
+                        <option value="澳门">澳门</option>
+                        <option value="广西">广西</option>
+                        <option value="宁夏">宁夏</option>
+                        <option value="新疆">新疆</option>
+                        <option value="内蒙古">内蒙古</option>
+                        <option value="西藏">西藏</option>
+                        </select>
+                    </c:if>
 
-                        <c:if test="${user.address == '江苏省'}">
-  
-                                <option value="北京">北京市</option>
-                                <option value="浙江省">浙江省</option>
-                                <option value="天津市">天津市</option>
-                                <option value="安徽省">安徽省</option>
-                                <option value="上海市">上海市</option>
-                                <option value="福建省">福建省</option>
-                                <option value="重庆市">重庆市</option>
-                                <option value="江西省">江西省</option>
-                                <option value="山东省">山东省</option>
-                                <option value="河南省">河南省</option>
-                                <option value="湖北省">湖北省</option>
-                                <option value="湖南省">湖南省</option>
-                                <option value="广东省">广东省</option>
-                                <option value="海南省">海南省</option>
-                                <option value="山西省">山西省</option>
-                                <option value="青海省">青海省</option>
-                                <option value="江苏省" selected>江苏省</option>
-                                <option value="辽宁省">辽宁省</option>
-                                <option value="吉林省">吉林省</option>
-                                <option value="台湾省">台湾省</option>
-                                <option value="河北省">河北省</option>
-                                <option value="贵州省">贵州省</option>
-                                <option value="四川省">四川省</option>
-                                <option value="云南省">云南省</option>
-                                <option value="陕西省">陕西省</option>
-                                <option value="甘肃省">甘肃省</option>
-                                <option value="黑龙江省">黑龙江省</option>
-                                <option value="香港">香港</option>
-                                <option value="澳门">澳门</option>
-                                <option value="广西">广西</option>
-                                <option value="宁夏">宁夏</option>
-                                <option value="新疆">新疆</option>
-                                <option value="内蒙古">内蒙古</option>
-                                <option value="西藏">西藏</option>
-                            </select>
-                        </c:if>
+                    <c:if test="${user.address == '山东省'}">
 
-                        <c:if test="${user.address == '辽宁省'}">
-  
-                                <option value="北京">北京市</option>
-                                <option value="浙江省">浙江省</option>
-                                <option value="天津市">天津市</option>
-                                <option value="安徽省">安徽省</option>
-                                <option value="上海市">上海市</option>
-                                <option value="福建省">福建省</option>
-                                <option value="重庆市">重庆市</option>
-                                <option value="江西省">江西省</option>
-                                <option value="山东省">山东省</option>
-                                <option value="河南省">河南省</option>
-                                <option value="湖北省">湖北省</option>
-                                <option value="湖南省">湖南省</option>
-                                <option value="广东省">广东省</option>
-                                <option value="海南省">海南省</option>
-                                <option value="山西省">山西省</option>
-                                <option value="青海省">青海省</option>
-                                <option value="江苏省">江苏省</option>
-                                <option value="辽宁省" selected>辽宁省</option>
-                                <option value="吉林省">吉林省</option>
-                                <option value="台湾省">台湾省</option>
-                                <option value="河北省">河北省</option>
-                                <option value="贵州省">贵州省</option>
-                                <option value="四川省">四川省</option>
-                                <option value="云南省">云南省</option>
-                                <option value="陕西省">陕西省</option>
-                                <option value="甘肃省">甘肃省</option>
-                                <option value="黑龙江省">黑龙江省</option>
-                                <option value="香港">香港</option>
-                                <option value="澳门">澳门</option>
-                                <option value="广西">广西</option>
-                                <option value="宁夏">宁夏</option>
-                                <option value="新疆">新疆</option>
-                                <option value="内蒙古">内蒙古</option>
-                                <option value="西藏">西藏</option>
-                            </select>
-                        </c:if>
+                        <option value="北京">北京市</option>
+                        <option value="浙江省">浙江省</option>
+                        <option value="天津市">天津市</option>
+                        <option value="安徽省">安徽省</option>
+                        <option value="上海市">上海市</option>
+                        <option value="福建省">福建省</option>
+                        <option value="重庆市">重庆市</option>
+                        <option value="江西省">江西省</option>
+                        <option value="山东省" selected>山东省</option>
+                        <option value="河南省">河南省</option>
+                        <option value="湖北省">湖北省</option>
+                        <option value="湖南省">湖南省</option>
+                        <option value="广东省">广东省</option>
+                        <option value="海南省">海南省</option>
+                        <option value="山西省">山西省</option>
+                        <option value="青海省">青海省</option>
+                        <option value="江苏省">江苏省</option>
+                        <option value="辽宁省">辽宁省</option>
+                        <option value="吉林省">吉林省</option>
+                        <option value="台湾省">台湾省</option>
+                        <option value="河北省">河北省</option>
+                        <option value="贵州省">贵州省</option>
+                        <option value="四川省">四川省</option>
+                        <option value="云南省">云南省</option>
+                        <option value="陕西省">陕西省</option>
+                        <option value="甘肃省">甘肃省</option>
+                        <option value="黑龙江省">黑龙江省</option>
+                        <option value="香港">香港</option>
+                        <option value="澳门">澳门</option>
+                        <option value="广西">广西</option>
+                        <option value="宁夏">宁夏</option>
+                        <option value="新疆">新疆</option>
+                        <option value="内蒙古">内蒙古</option>
+                        <option value="西藏">西藏</option>
+                        </select>
+                    </c:if>
 
-                        <c:if test="${user.address == '吉林省'}">
-  
-                                <option value="北京">北京市</option>
-                                <option value="浙江省">浙江省</option>
-                                <option value="天津市">天津市</option>
-                                <option value="安徽省">安徽省</option>
-                                <option value="上海市">上海市</option>
-                                <option value="福建省">福建省</option>
-                                <option value="重庆市">重庆市</option>
-                                <option value="江西省">江西省</option>
-                                <option value="山东省">山东省</option>
-                                <option value="河南省">河南省</option>
-                                <option value="湖北省">湖北省</option>
-                                <option value="湖南省">湖南省</option>
-                                <option value="广东省">广东省</option>
-                                <option value="海南省">海南省</option>
-                                <option value="山西省">山西省</option>
-                                <option value="青海省">青海省</option>
-                                <option value="江苏省">江苏省</option>
-                                <option value="辽宁省">辽宁省</option>
-                                <option value="吉林省" selected>吉林省</option>
-                                <option value="台湾省">台湾省</option>
-                                <option value="河北省">河北省</option>
-                                <option value="贵州省">贵州省</option>
-                                <option value="四川省">四川省</option>
-                                <option value="云南省">云南省</option>
-                                <option value="陕西省">陕西省</option>
-                                <option value="甘肃省">甘肃省</option>
-                                <option value="黑龙江省">黑龙江省</option>
-                                <option value="香港">香港</option>
-                                <option value="澳门">澳门</option>
-                                <option value="广西">广西</option>
-                                <option value="宁夏">宁夏</option>
-                                <option value="新疆">新疆</option>
-                                <option value="内蒙古">内蒙古</option>
-                                <option value="西藏">西藏</option>
-                            </select>
-                        </c:if>
+                    <c:if test="${user.address == '河南省'}">
 
-                        <c:if test="${user.address == '台湾省'}">
-  
-                                <option value="北京">北京市</option>
-                                <option value="浙江省">浙江省</option>
-                                <option value="天津市">天津市</option>
-                                <option value="安徽省">安徽省</option>
-                                <option value="上海市">上海市</option>
-                                <option value="福建省">福建省</option>
-                                <option value="重庆市">重庆市</option>
-                                <option value="江西省">江西省</option>
-                                <option value="山东省">山东省</option>
-                                <option value="河南省">河南省</option>
-                                <option value="湖北省">湖北省</option>
-                                <option value="湖南省">湖南省</option>
-                                <option value="广东省">广东省</option>
-                                <option value="海南省">海南省</option>
-                                <option value="山西省">山西省</option>
-                                <option value="青海省">青海省</option>
-                                <option value="江苏省">江苏省</option>
-                                <option value="辽宁省">辽宁省</option>
-                                <option value="吉林省">吉林省</option>
-                                <option value="台湾省" selected>台湾省</option>
-                                <option value="河北省">河北省</option>
-                                <option value="贵州省">贵州省</option>
-                                <option value="四川省">四川省</option>
-                                <option value="云南省">云南省</option>
-                                <option value="陕西省">陕西省</option>
-                                <option value="甘肃省">甘肃省</option>
-                                <option value="黑龙江省">黑龙江省</option>
-                                <option value="香港">香港</option>
-                                <option value="澳门">澳门</option>
-                                <option value="广西">广西</option>
-                                <option value="宁夏">宁夏</option>
-                                <option value="新疆">新疆</option>
-                                <option value="内蒙古">内蒙古</option>
-                                <option value="西藏">西藏</option>
-                            </select>
-                        </c:if>
+                        <option value="北京">北京市</option>
+                        <option value="浙江省">浙江省</option>
+                        <option value="天津市">天津市</option>
+                        <option value="安徽省">安徽省</option>
+                        <option value="上海市">上海市</option>
+                        <option value="福建省">福建省</option>
+                        <option value="重庆市">重庆市</option>
+                        <option value="江西省">江西省</option>
+                        <option value="山东省">山东省</option>
+                        <option value="河南省" selected>河南省</option>
+                        <option value="湖北省">湖北省</option>
+                        <option value="湖南省">湖南省</option>
+                        <option value="广东省">广东省</option>
+                        <option value="海南省">海南省</option>
+                        <option value="山西省">山西省</option>
+                        <option value="青海省">青海省</option>
+                        <option value="江苏省">江苏省</option>
+                        <option value="辽宁省">辽宁省</option>
+                        <option value="吉林省">吉林省</option>
+                        <option value="台湾省">台湾省</option>
+                        <option value="河北省">河北省</option>
+                        <option value="贵州省">贵州省</option>
+                        <option value="四川省">四川省</option>
+                        <option value="云南省">云南省</option>
+                        <option value="陕西省">陕西省</option>
+                        <option value="甘肃省">甘肃省</option>
+                        <option value="黑龙江省">黑龙江省</option>
+                        <option value="香港">香港</option>
+                        <option value="澳门">澳门</option>
+                        <option value="广西">广西</option>
+                        <option value="宁夏">宁夏</option>
+                        <option value="新疆">新疆</option>
+                        <option value="内蒙古">内蒙古</option>
+                        <option value="西藏">西藏</option>
+                        </select>
+                    </c:if>
 
-                        <c:if test="${user.address == '河北省'}">
-  
-                                <option value="北京">北京市</option>
-                                <option value="浙江省">浙江省</option>
-                                <option value="天津市">天津市</option>
-                                <option value="安徽省">安徽省</option>
-                                <option value="上海市">上海市</option>
-                                <option value="福建省">福建省</option>
-                                <option value="重庆市">重庆市</option>
-                                <option value="江西省">江西省</option>
-                                <option value="山东省">山东省</option>
-                                <option value="河南省">河南省</option>
-                                <option value="湖北省">湖北省</option>
-                                <option value="湖南省">湖南省</option>
-                                <option value="广东省">广东省</option>
-                                <option value="海南省">海南省</option>
-                                <option value="山西省">山西省</option>
-                                <option value="青海省">青海省</option>
-                                <option value="江苏省">江苏省</option>
-                                <option value="辽宁省">辽宁省</option>
-                                <option value="吉林省">吉林省</option>
-                                <option value="台湾省">台湾省</option>
-                                <option value="河北省" selected>河北省</option>
-                                <option value="贵州省">贵州省</option>
-                                <option value="四川省">四川省</option>
-                                <option value="云南省">云南省</option>
-                                <option value="陕西省">陕西省</option>
-                                <option value="甘肃省">甘肃省</option>
-                                <option value="黑龙江省">黑龙江省</option>
-                                <option value="香港">香港</option>
-                                <option value="澳门">澳门</option>
-                                <option value="广西">广西</option>
-                                <option value="宁夏">宁夏</option>
-                                <option value="新疆">新疆</option>
-                                <option value="内蒙古">内蒙古</option>
-                                <option value="西藏">西藏</option>
-                            </select>
-                        </c:if>
+                    <c:if test="${user.address == '湖北省'}">
 
-                        <c:if test="${user.address == '贵州省'}">
-  
-                                <option value="北京">北京市</option>
-                                <option value="浙江省">浙江省</option>
-                                <option value="天津市">天津市</option>
-                                <option value="安徽省">安徽省</option>
-                                <option value="上海市">上海市</option>
-                                <option value="福建省">福建省</option>
-                                <option value="重庆市">重庆市</option>
-                                <option value="江西省">江西省</option>
-                                <option value="山东省">山东省</option>
-                                <option value="河南省">河南省</option>
-                                <option value="湖北省">湖北省</option>
-                                <option value="湖南省">湖南省</option>
-                                <option value="广东省">广东省</option>
-                                <option value="海南省">海南省</option>
-                                <option value="山西省">山西省</option>
-                                <option value="青海省">青海省</option>
-                                <option value="江苏省">江苏省</option>
-                                <option value="辽宁省">辽宁省</option>
-                                <option value="吉林省">吉林省</option>
-                                <option value="台湾省">台湾省</option>
-                                <option value="河北省">河北省</option>
-                                <option value="贵州省" selected>贵州省</option>
-                                <option value="四川省">四川省</option>
-                                <option value="云南省">云南省</option>
-                                <option value="陕西省">陕西省</option>
-                                <option value="甘肃省">甘肃省</option>
-                                <option value="黑龙江省">黑龙江省</option>
-                                <option value="香港">香港</option>
-                                <option value="澳门">澳门</option>
-                                <option value="广西">广西</option>
-                                <option value="宁夏">宁夏</option>
-                                <option value="新疆">新疆</option>
-                                <option value="内蒙古">内蒙古</option>
-                                <option value="西藏">西藏</option>
-                            </select>
-                        </c:if>
+                        <option value="北京">北京市</option>
+                        <option value="浙江省">浙江省</option>
+                        <option value="天津市">天津市</option>
+                        <option value="安徽省">安徽省</option>
+                        <option value="上海市">上海市</option>
+                        <option value="福建省">福建省</option>
+                        <option value="重庆市">重庆市</option>
+                        <option value="江西省">江西省</option>
+                        <option value="山东省">山东省</option>
+                        <option value="河南省">河南省</option>
+                        <option value="湖北省" selected>湖北省</option>
+                        <option value="湖南省">湖南省</option>
+                        <option value="广东省">广东省</option>
+                        <option value="海南省">海南省</option>
+                        <option value="山西省">山西省</option>
+                        <option value="青海省">青海省</option>
+                        <option value="江苏省">江苏省</option>
+                        <option value="辽宁省">辽宁省</option>
+                        <option value="吉林省">吉林省</option>
+                        <option value="台湾省">台湾省</option>
+                        <option value="河北省">河北省</option>
+                        <option value="贵州省">贵州省</option>
+                        <option value="四川省">四川省</option>
+                        <option value="云南省">云南省</option>
+                        <option value="陕西省">陕西省</option>
+                        <option value="甘肃省">甘肃省</option>
+                        <option value="黑龙江省">黑龙江省</option>
+                        <option value="香港">香港</option>
+                        <option value="澳门">澳门</option>
+                        <option value="广西">广西</option>
+                        <option value="宁夏">宁夏</option>
+                        <option value="新疆">新疆</option>
+                        <option value="内蒙古">内蒙古</option>
+                        <option value="西藏">西藏</option>
+                        </select>
+                    </c:if>
 
-                        <c:if test="${user.address == '四川省'}">
-  
-                                <option value="北京">北京市</option>
-                                <option value="浙江省">浙江省</option>
-                                <option value="天津市">天津市</option>
-                                <option value="安徽省">安徽省</option>
-                                <option value="上海市">上海市</option>
-                                <option value="福建省">福建省</option>
-                                <option value="重庆市">重庆市</option>
-                                <option value="江西省">江西省</option>
-                                <option value="山东省">山东省</option>
-                                <option value="河南省">河南省</option>
-                                <option value="湖北省">湖北省</option>
-                                <option value="湖南省">湖南省</option>
-                                <option value="广东省">广东省</option>
-                                <option value="海南省">海南省</option>
-                                <option value="山西省">山西省</option>
-                                <option value="青海省">青海省</option>
-                                <option value="江苏省">江苏省</option>
-                                <option value="辽宁省">辽宁省</option>
-                                <option value="吉林省">吉林省</option>
-                                <option value="台湾省">台湾省</option>
-                                <option value="河北省">河北省</option>
-                                <option value="贵州省">贵州省</option>
-                                <option value="四川省" selected>四川省</option>
-                                <option value="云南省">云南省</option>
-                                <option value="陕西省">陕西省</option>
-                                <option value="甘肃省">甘肃省</option>
-                                <option value="黑龙江省">黑龙江省</option>
-                                <option value="香港">香港</option>
-                                <option value="澳门">澳门</option>
-                                <option value="广西">广西</option>
-                                <option value="宁夏">宁夏</option>
-                                <option value="新疆">新疆</option>
-                                <option value="内蒙古">内蒙古</option>
-                                <option value="西藏">西藏</option>
-                            </select>
-                        </c:if>
+                    <c:if test="${user.address == '湖南省'}">
 
-                        <c:if test="${user.address == '云南省'}">
-  
-                                <option value="北京">北京市</option>
-                                <option value="浙江省">浙江省</option>
-                                <option value="天津市">天津市</option>
-                                <option value="安徽省">安徽省</option>
-                                <option value="上海市">上海市</option>
-                                <option value="福建省">福建省</option>
-                                <option value="重庆市">重庆市</option>
-                                <option value="江西省">江西省</option>
-                                <option value="山东省">山东省</option>
-                                <option value="河南省">河南省</option>
-                                <option value="湖北省">湖北省</option>
-                                <option value="湖南省">湖南省</option>
-                                <option value="广东省">广东省</option>
-                                <option value="海南省">海南省</option>
-                                <option value="山西省">山西省</option>
-                                <option value="青海省">青海省</option>
-                                <option value="江苏省">江苏省</option>
-                                <option value="辽宁省">辽宁省</option>
-                                <option value="吉林省">吉林省</option>
-                                <option value="台湾省">台湾省</option>
-                                <option value="河北省">河北省</option>
-                                <option value="贵州省">贵州省</option>
-                                <option value="四川省">四川省</option>
-                                <option value="云南省" selected>云南省</option>
-                                <option value="陕西省">陕西省</option>
-                                <option value="甘肃省">甘肃省</option>
-                                <option value="黑龙江省">黑龙江省</option>
-                                <option value="香港">香港</option>
-                                <option value="澳门">澳门</option>
-                                <option value="广西">广西</option>
-                                <option value="宁夏">宁夏</option>
-                                <option value="新疆">新疆</option>
-                                <option value="内蒙古">内蒙古</option>
-                                <option value="西藏">西藏</option>
-                            </select>
-                        </c:if>
+                        <option value="北京">北京市</option>
+                        <option value="浙江省">浙江省</option>
+                        <option value="天津市">天津市</option>
+                        <option value="安徽省">安徽省</option>
+                        <option value="上海市">上海市</option>
+                        <option value="福建省">福建省</option>
+                        <option value="重庆市">重庆市</option>
+                        <option value="江西省">江西省</option>
+                        <option value="山东省">山东省</option>
+                        <option value="河南省">河南省</option>
+                        <option value="湖北省">湖北省</option>
+                        <option value="湖南省" selected>湖南省</option>
+                        <option value="广东省">广东省</option>
+                        <option value="海南省">海南省</option>
+                        <option value="山西省">山西省</option>
+                        <option value="青海省">青海省</option>
+                        <option value="江苏省">江苏省</option>
+                        <option value="辽宁省">辽宁省</option>
+                        <option value="吉林省">吉林省</option>
+                        <option value="台湾省">台湾省</option>
+                        <option value="河北省">河北省</option>
+                        <option value="贵州省">贵州省</option>
+                        <option value="四川省">四川省</option>
+                        <option value="云南省">云南省</option>
+                        <option value="陕西省">陕西省</option>
+                        <option value="甘肃省">甘肃省</option>
+                        <option value="黑龙江省">黑龙江省</option>
+                        <option value="香港">香港</option>
+                        <option value="澳门">澳门</option>
+                        <option value="广西">广西</option>
+                        <option value="宁夏">宁夏</option>
+                        <option value="新疆">新疆</option>
+                        <option value="内蒙古">内蒙古</option>
+                        <option value="西藏">西藏</option>
+                        </select>
+                    </c:if>
 
-                        <c:if test="${user.address == '陕西省'}">
-  
-                                <option value="北京">北京市</option>
-                                <option value="浙江省">浙江省</option>
-                                <option value="天津市">天津市</option>
-                                <option value="安徽省">安徽省</option>
-                                <option value="上海市">上海市</option>
-                                <option value="福建省">福建省</option>
-                                <option value="重庆市">重庆市</option>
-                                <option value="江西省">江西省</option>
-                                <option value="山东省">山东省</option>
-                                <option value="河南省">河南省</option>
-                                <option value="湖北省">湖北省</option>
-                                <option value="湖南省">湖南省</option>
-                                <option value="广东省">广东省</option>
-                                <option value="海南省">海南省</option>
-                                <option value="山西省">山西省</option>
-                                <option value="青海省">青海省</option>
-                                <option value="江苏省">江苏省</option>
-                                <option value="辽宁省">辽宁省</option>
-                                <option value="吉林省">吉林省</option>
-                                <option value="台湾省">台湾省</option>
-                                <option value="河北省">河北省</option>
-                                <option value="贵州省">贵州省</option>
-                                <option value="四川省">四川省</option>
-                                <option value="云南省">云南省</option>
-                                <option value="陕西省" selected>陕西省</option>
-                                <option value="甘肃省">甘肃省</option>
-                                <option value="黑龙江省">黑龙江省</option>
-                                <option value="香港">香港</option>
-                                <option value="澳门">澳门</option>
-                                <option value="广西">广西</option>
-                                <option value="宁夏">宁夏</option>
-                                <option value="新疆">新疆</option>
-                                <option value="内蒙古">内蒙古</option>
-                                <option value="西藏">西藏</option>
-                            </select>
-                        </c:if>
+                    <c:if test="${user.address == '广东省'}">
 
-                        <c:if test="${user.address == '甘肃省'}">
-  
-                                <option value="北京">北京市</option>
-                                <option value="浙江省">浙江省</option>
-                                <option value="天津市">天津市</option>
-                                <option value="安徽省">安徽省</option>
-                                <option value="上海市">上海市</option>
-                                <option value="福建省">福建省</option>
-                                <option value="重庆市">重庆市</option>
-                                <option value="江西省">江西省</option>
-                                <option value="山东省">山东省</option>
-                                <option value="河南省">河南省</option>
-                                <option value="湖北省">湖北省</option>
-                                <option value="湖南省">湖南省</option>
-                                <option value="广东省">广东省</option>
-                                <option value="海南省">海南省</option>
-                                <option value="山西省">山西省</option>
-                                <option value="青海省">青海省</option>
-                                <option value="江苏省">江苏省</option>
-                                <option value="辽宁省">辽宁省</option>
-                                <option value="吉林省">吉林省</option>
-                                <option value="台湾省">台湾省</option>
-                                <option value="河北省">河北省</option>
-                                <option value="贵州省">贵州省</option>
-                                <option value="四川省">四川省</option>
-                                <option value="云南省">云南省</option>
-                                <option value="陕西省">陕西省</option>
-                                <option value="甘肃省" selected>甘肃省</option>
-                                <option value="黑龙江省">黑龙江省</option>
-                                <option value="香港">香港</option>
-                                <option value="澳门">澳门</option>
-                                <option value="广西">广西</option>
-                                <option value="宁夏">宁夏</option>
-                                <option value="新疆">新疆</option>
-                                <option value="内蒙古">内蒙古</option>
-                                <option value="西藏">西藏</option>
-                            </select>
-                        </c:if>
+                        <option value="北京">北京市</option>
+                        <option value="浙江省">浙江省</option>
+                        <option value="天津市">天津市</option>
+                        <option value="安徽省">安徽省</option>
+                        <option value="上海市">上海市</option>
+                        <option value="福建省">福建省</option>
+                        <option value="重庆市">重庆市</option>
+                        <option value="江西省">江西省</option>
+                        <option value="山东省">山东省</option>
+                        <option value="河南省">河南省</option>
+                        <option value="湖北省">湖北省</option>
+                        <option value="湖南省">湖南省</option>
+                        <option value="广东省" selected>广东省</option>
+                        <option value="海南省">海南省</option>
+                        <option value="山西省">山西省</option>
+                        <option value="青海省">青海省</option>
+                        <option value="江苏省">江苏省</option>
+                        <option value="辽宁省">辽宁省</option>
+                        <option value="吉林省">吉林省</option>
+                        <option value="台湾省">台湾省</option>
+                        <option value="河北省">河北省</option>
+                        <option value="贵州省">贵州省</option>
+                        <option value="四川省">四川省</option>
+                        <option value="云南省">云南省</option>
+                        <option value="陕西省">陕西省</option>
+                        <option value="甘肃省">甘肃省</option>
+                        <option value="黑龙江省">黑龙江省</option>
+                        <option value="香港">香港</option>
+                        <option value="澳门">澳门</option>
+                        <option value="广西">广西</option>
+                        <option value="宁夏">宁夏</option>
+                        <option value="新疆">新疆</option>
+                        <option value="内蒙古">内蒙古</option>
+                        <option value="西藏">西藏</option>
+                        </select>
+                    </c:if>
 
-                        <c:if test="${user.address == '黑龙江省'}">
-  
-                                <option value="北京">北京市</option>
-                                <option value="浙江省">浙江省</option>
-                                <option value="天津市">天津市</option>
-                                <option value="安徽省">安徽省</option>
-                                <option value="上海市">上海市</option>
-                                <option value="福建省">福建省</option>
-                                <option value="重庆市">重庆市</option>
-                                <option value="江西省">江西省</option>
-                                <option value="山东省">山东省</option>
-                                <option value="河南省">河南省</option>
-                                <option value="湖北省">湖北省</option>
-                                <option value="湖南省">湖南省</option>
-                                <option value="广东省">广东省</option>
-                                <option value="海南省">海南省</option>
-                                <option value="山西省">山西省</option>
-                                <option value="青海省">青海省</option>
-                                <option value="江苏省">江苏省</option>
-                                <option value="辽宁省">辽宁省</option>
-                                <option value="吉林省">吉林省</option>
-                                <option value="台湾省">台湾省</option>
-                                <option value="河北省">河北省</option>
-                                <option value="贵州省">贵州省</option>
-                                <option value="四川省">四川省</option>
-                                <option value="云南省">云南省</option>
-                                <option value="陕西省">陕西省</option>
-                                <option value="甘肃省">甘肃省</option>
-                                <option value="黑龙江省" selected>黑龙江省</option>
-                                <option value="香港">香港</option>
-                                <option value="澳门">澳门</option>
-                                <option value="广西">广西</option>
-                                <option value="宁夏">宁夏</option>
-                                <option value="新疆">新疆</option>
-                                <option value="内蒙古">内蒙古</option>
-                                <option value="西藏">西藏</option>
-                            </select>
-                        </c:if>
+                    <c:if test="${user.address == '海南省'}">
 
-                        <c:if test="${user.address == '香港'}">
-  
-                                <option value="北京">北京市</option>
-                                <option value="浙江省">浙江省</option>
-                                <option value="天津市">天津市</option>
-                                <option value="安徽省">安徽省</option>
-                                <option value="上海市">上海市</option>
-                                <option value="福建省">福建省</option>
-                                <option value="重庆市">重庆市</option>
-                                <option value="江西省">江西省</option>
-                                <option value="山东省">山东省</option>
-                                <option value="河南省">河南省</option>
-                                <option value="湖北省">湖北省</option>
-                                <option value="湖南省">湖南省</option>
-                                <option value="广东省">广东省</option>
-                                <option value="海南省">海南省</option>
-                                <option value="山西省">山西省</option>
-                                <option value="青海省">青海省</option>
-                                <option value="江苏省">江苏省</option>
-                                <option value="辽宁省">辽宁省</option>
-                                <option value="吉林省">吉林省</option>
-                                <option value="台湾省">台湾省</option>
-                                <option value="河北省">河北省</option>
-                                <option value="贵州省">贵州省</option>
-                                <option value="四川省">四川省</option>
-                                <option value="云南省">云南省</option>
-                                <option value="陕西省">陕西省</option>
-                                <option value="甘肃省">甘肃省</option>
-                                <option value="黑龙江省">黑龙江省</option>
-                                <option value="香港" selected>香港</option>
-                                <option value="澳门">澳门</option>
-                                <option value="广西">广西</option>
-                                <option value="宁夏">宁夏</option>
-                                <option value="新疆">新疆</option>
-                                <option value="内蒙古">内蒙古</option>
-                                <option value="西藏">西藏</option>
-                            </select>
-                        </c:if>
+                        <option value="北京">北京市</option>
+                        <option value="浙江省">浙江省</option>
+                        <option value="天津市">天津市</option>
+                        <option value="安徽省">安徽省</option>
+                        <option value="上海市">上海市</option>
+                        <option value="福建省">福建省</option>
+                        <option value="重庆市">重庆市</option>
+                        <option value="江西省">江西省</option>
+                        <option value="山东省">山东省</option>
+                        <option value="河南省">河南省</option>
+                        <option value="湖北省">湖北省</option>
+                        <option value="湖南省">湖南省</option>
+                        <option value="广东省">广东省</option>
+                        <option value="海南省" selected>海南省</option>
+                        <option value="山西省">山西省</option>
+                        <option value="青海省">青海省</option>
+                        <option value="江苏省">江苏省</option>
+                        <option value="辽宁省">辽宁省</option>
+                        <option value="吉林省">吉林省</option>
+                        <option value="台湾省">台湾省</option>
+                        <option value="河北省">河北省</option>
+                        <option value="贵州省">贵州省</option>
+                        <option value="四川省">四川省</option>
+                        <option value="云南省">云南省</option>
+                        <option value="陕西省">陕西省</option>
+                        <option value="甘肃省">甘肃省</option>
+                        <option value="黑龙江省">黑龙江省</option>
+                        <option value="香港">香港</option>
+                        <option value="澳门">澳门</option>
+                        <option value="广西">广西</option>
+                        <option value="宁夏">宁夏</option>
+                        <option value="新疆">新疆</option>
+                        <option value="内蒙古">内蒙古</option>
+                        <option value="西藏">西藏</option>
+                        </select>
+                    </c:if>
 
-                        <c:if test="${user.address == '澳门'}">
-  
-                                <option value="北京">北京市</option>
-                                <option value="浙江省">浙江省</option>
-                                <option value="天津市">天津市</option>
-                                <option value="安徽省">安徽省</option>
-                                <option value="上海市">上海市</option>
-                                <option value="福建省">福建省</option>
-                                <option value="重庆市">重庆市</option>
-                                <option value="江西省">江西省</option>
-                                <option value="山东省">山东省</option>
-                                <option value="河南省">河南省</option>
-                                <option value="湖北省">湖北省</option>
-                                <option value="湖南省">湖南省</option>
-                                <option value="广东省">广东省</option>
-                                <option value="海南省">海南省</option>
-                                <option value="山西省">山西省</option>
-                                <option value="青海省">青海省</option>
-                                <option value="江苏省">江苏省</option>
-                                <option value="辽宁省">辽宁省</option>
-                                <option value="吉林省">吉林省</option>
-                                <option value="台湾省">台湾省</option>
-                                <option value="河北省">河北省</option>
-                                <option value="贵州省">贵州省</option>
-                                <option value="四川省">四川省</option>
-                                <option value="云南省">云南省</option>
-                                <option value="陕西省">陕西省</option>
-                                <option value="甘肃省">甘肃省</option>
-                                <option value="黑龙江省">黑龙江省</option>
-                                <option value="香港">香港</option>
-                                <option value="澳门" selected>澳门</option>
-                                <option value="广西">广西</option>
-                                <option value="宁夏">宁夏</option>
-                                <option value="新疆">新疆</option>
-                                <option value="内蒙古">内蒙古</option>
-                                <option value="西藏">西藏</option>
-                            </select>
-                        </c:if>
+                    <c:if test="${user.address == '山西省'}">
 
-                        <c:if test="${user.address == '广西'}">
-  
-                                <option value="北京">北京市</option>
-                                <option value="浙江省">浙江省</option>
-                                <option value="天津市">天津市</option>
-                                <option value="安徽省">安徽省</option>
-                                <option value="上海市">上海市</option>
-                                <option value="福建省">福建省</option>
-                                <option value="重庆市">重庆市</option>
-                                <option value="江西省">江西省</option>
-                                <option value="山东省">山东省</option>
-                                <option value="河南省">河南省</option>
-                                <option value="湖北省">湖北省</option>
-                                <option value="湖南省">湖南省</option>
-                                <option value="广东省">广东省</option>
-                                <option value="海南省">海南省</option>
-                                <option value="山西省">山西省</option>
-                                <option value="青海省">青海省</option>
-                                <option value="江苏省">江苏省</option>
-                                <option value="辽宁省">辽宁省</option>
-                                <option value="吉林省">吉林省</option>
-                                <option value="台湾省">台湾省</option>
-                                <option value="河北省">河北省</option>
-                                <option value="贵州省">贵州省</option>
-                                <option value="四川省">四川省</option>
-                                <option value="云南省">云南省</option>
-                                <option value="陕西省">陕西省</option>
-                                <option value="甘肃省">甘肃省</option>
-                                <option value="黑龙江省">黑龙江省</option>
-                                <option value="香港">香港</option>
-                                <option value="澳门">澳门</option>
-                                <option value="广西" selected>广西</option>
-                                <option value="宁夏">宁夏</option>
-                                <option value="新疆">新疆</option>
-                                <option value="内蒙古">内蒙古</option>
-                                <option value="西藏">西藏</option>
-                            </select>
-                        </c:if>
+                        <option value="北京">北京市</option>
+                        <option value="浙江省">浙江省</option>
+                        <option value="天津市">天津市</option>
+                        <option value="安徽省">安徽省</option>
+                        <option value="上海市">上海市</option>
+                        <option value="福建省">福建省</option>
+                        <option value="重庆市">重庆市</option>
+                        <option value="江西省">江西省</option>
+                        <option value="山东省">山东省</option>
+                        <option value="河南省">河南省</option>
+                        <option value="湖北省">湖北省</option>
+                        <option value="湖南省">湖南省</option>
+                        <option value="广东省">广东省</option>
+                        <option value="海南省">海南省</option>
+                        <option value="山西省" selected>山西省</option>
+                        <option value="青海省">青海省</option>
+                        <option value="江苏省">江苏省</option>
+                        <option value="辽宁省">辽宁省</option>
+                        <option value="吉林省">吉林省</option>
+                        <option value="台湾省">台湾省</option>
+                        <option value="河北省">河北省</option>
+                        <option value="贵州省">贵州省</option>
+                        <option value="四川省">四川省</option>
+                        <option value="云南省">云南省</option>
+                        <option value="陕西省">陕西省</option>
+                        <option value="甘肃省">甘肃省</option>
+                        <option value="黑龙江省">黑龙江省</option>
+                        <option value="香港">香港</option>
+                        <option value="澳门">澳门</option>
+                        <option value="广西">广西</option>
+                        <option value="宁夏">宁夏</option>
+                        <option value="新疆">新疆</option>
+                        <option value="内蒙古">内蒙古</option>
+                        <option value="西藏">西藏</option>
+                        </select>
+                    </c:if>
 
-                        <c:if test="${user.address == '宁夏'}">
-  
-                                <option value="北京">北京市</option>
-                                <option value="浙江省">浙江省</option>
-                                <option value="天津市">天津市</option>
-                                <option value="安徽省">安徽省</option>
-                                <option value="上海市">上海市</option>
-                                <option value="福建省">福建省</option>
-                                <option value="重庆市">重庆市</option>
-                                <option value="江西省">江西省</option>
-                                <option value="山东省">山东省</option>
-                                <option value="河南省">河南省</option>
-                                <option value="湖北省">湖北省</option>
-                                <option value="湖南省">湖南省</option>
-                                <option value="广东省">广东省</option>
-                                <option value="海南省">海南省</option>
-                                <option value="山西省">山西省</option>
-                                <option value="青海省">青海省</option>
-                                <option value="江苏省">江苏省</option>
-                                <option value="辽宁省">辽宁省</option>
-                                <option value="吉林省">吉林省</option>
-                                <option value="台湾省">台湾省</option>
-                                <option value="河北省">河北省</option>
-                                <option value="贵州省">贵州省</option>
-                                <option value="四川省">四川省</option>
-                                <option value="云南省">云南省</option>
-                                <option value="陕西省">陕西省</option>
-                                <option value="甘肃省">甘肃省</option>
-                                <option value="黑龙江省">黑龙江省</option>
-                                <option value="香港">香港</option>
-                                <option value="澳门">澳门</option>
-                                <option value="广西">广西</option>
-                                <option value="宁夏" selected>宁夏</option>
-                                <option value="新疆">新疆</option>
-                                <option value="内蒙古">内蒙古</option>
-                                <option value="西藏">西藏</option>
-                            </select>
-                        </c:if>
+                    <c:if test="${user.address == '青海省'}">
 
-                        <c:if test="${user.address == '宁夏'}">
-  
-                                <option value="北京">北京市</option>
-                                <option value="浙江省">浙江省</option>
-                                <option value="天津市">天津市</option>
-                                <option value="安徽省">安徽省</option>
-                                <option value="上海市">上海市</option>
-                                <option value="福建省">福建省</option>
-                                <option value="重庆市">重庆市</option>
-                                <option value="江西省">江西省</option>
-                                <option value="山东省">山东省</option>
-                                <option value="河南省">河南省</option>
-                                <option value="湖北省">湖北省</option>
-                                <option value="湖南省">湖南省</option>
-                                <option value="广东省">广东省</option>
-                                <option value="海南省">海南省</option>
-                                <option value="山西省">山西省</option>
-                                <option value="青海省">青海省</option>
-                                <option value="江苏省">江苏省</option>
-                                <option value="辽宁省">辽宁省</option>
-                                <option value="吉林省">吉林省</option>
-                                <option value="台湾省">台湾省</option>
-                                <option value="河北省">河北省</option>
-                                <option value="贵州省">贵州省</option>
-                                <option value="四川省">四川省</option>
-                                <option value="云南省">云南省</option>
-                                <option value="陕西省">陕西省</option>
-                                <option value="甘肃省">甘肃省</option>
-                                <option value="黑龙江省">黑龙江省</option>
-                                <option value="香港">香港</option>
-                                <option value="澳门">澳门</option>
-                                <option value="广西">广西</option>
-                                <option value="宁夏" selected>宁夏</option>
-                                <option value="新疆">新疆</option>
-                                <option value="内蒙古">内蒙古</option>
-                                <option value="西藏">西藏</option>
-                            </select>
-                        </c:if>
+                        <option value="北京">北京市</option>
+                        <option value="浙江省">浙江省</option>
+                        <option value="天津市">天津市</option>
+                        <option value="安徽省">安徽省</option>
+                        <option value="上海市">上海市</option>
+                        <option value="福建省">福建省</option>
+                        <option value="重庆市">重庆市</option>
+                        <option value="江西省">江西省</option>
+                        <option value="山东省">山东省</option>
+                        <option value="河南省">河南省</option>
+                        <option value="湖北省">湖北省</option>
+                        <option value="湖南省">湖南省</option>
+                        <option value="广东省">广东省</option>
+                        <option value="海南省">海南省</option>
+                        <option value="山西省">山西省</option>
+                        <option value="青海省" selected>青海省</option>
+                        <option value="江苏省">江苏省</option>
+                        <option value="辽宁省">辽宁省</option>
+                        <option value="吉林省">吉林省</option>
+                        <option value="台湾省">台湾省</option>
+                        <option value="河北省">河北省</option>
+                        <option value="贵州省">贵州省</option>
+                        <option value="四川省">四川省</option>
+                        <option value="云南省">云南省</option>
+                        <option value="陕西省">陕西省</option>
+                        <option value="甘肃省">甘肃省</option>
+                        <option value="黑龙江省">黑龙江省</option>
+                        <option value="香港">香港</option>
+                        <option value="澳门">澳门</option>
+                        <option value="广西">广西</option>
+                        <option value="宁夏">宁夏</option>
+                        <option value="新疆">新疆</option>
+                        <option value="内蒙古">内蒙古</option>
+                        <option value="西藏">西藏</option>
+                        </select>
+                    </c:if>
 
-                        <c:if test="${user.address == '新疆'}">
-  
-                                <option value="北京">北京市</option>
-                                <option value="浙江省">浙江省</option>
-                                <option value="天津市">天津市</option>
-                                <option value="安徽省">安徽省</option>
-                                <option value="上海市">上海市</option>
-                                <option value="福建省">福建省</option>
-                                <option value="重庆市">重庆市</option>
-                                <option value="江西省">江西省</option>
-                                <option value="山东省">山东省</option>
-                                <option value="河南省">河南省</option>
-                                <option value="湖北省">湖北省</option>
-                                <option value="湖南省">湖南省</option>
-                                <option value="广东省">广东省</option>
-                                <option value="海南省">海南省</option>
-                                <option value="山西省">山西省</option>
-                                <option value="青海省">青海省</option>
-                                <option value="江苏省">江苏省</option>
-                                <option value="辽宁省">辽宁省</option>
-                                <option value="吉林省">吉林省</option>
-                                <option value="台湾省">台湾省</option>
-                                <option value="河北省">河北省</option>
-                                <option value="贵州省">贵州省</option>
-                                <option value="四川省">四川省</option>
-                                <option value="云南省">云南省</option>
-                                <option value="陕西省">陕西省</option>
-                                <option value="甘肃省">甘肃省</option>
-                                <option value="黑龙江省">黑龙江省</option>
-                                <option value="香港">香港</option>
-                                <option value="澳门">澳门</option>
-                                <option value="广西">广西</option>
-                                <option value="宁夏">宁夏</option>
-                                <option value="新疆" selected>新疆</option>
-                                <option value="内蒙古">内蒙古</option>
-                                <option value="西藏">西藏</option>
-                            </select>
-                        </c:if>
+                    <c:if test="${user.address == '江苏省'}">
 
-                        <c:if test="${user.address == '内蒙古'}">
-  
-                                <option value="北京">北京市</option>
-                                <option value="浙江省">浙江省</option>
-                                <option value="天津市">天津市</option>
-                                <option value="安徽省">安徽省</option>
-                                <option value="上海市">上海市</option>
-                                <option value="福建省">福建省</option>
-                                <option value="重庆市">重庆市</option>
-                                <option value="江西省">江西省</option>
-                                <option value="山东省">山东省</option>
-                                <option value="河南省">河南省</option>
-                                <option value="湖北省">湖北省</option>
-                                <option value="湖南省">湖南省</option>
-                                <option value="广东省">广东省</option>
-                                <option value="海南省">海南省</option>
-                                <option value="山西省">山西省</option>
-                                <option value="青海省">青海省</option>
-                                <option value="江苏省">江苏省</option>
-                                <option value="辽宁省">辽宁省</option>
-                                <option value="吉林省">吉林省</option>
-                                <option value="台湾省">台湾省</option>
-                                <option value="河北省">河北省</option>
-                                <option value="贵州省">贵州省</option>
-                                <option value="四川省">四川省</option>
-                                <option value="云南省">云南省</option>
-                                <option value="陕西省">陕西省</option>
-                                <option value="甘肃省">甘肃省</option>
-                                <option value="黑龙江省">黑龙江省</option>
-                                <option value="香港">香港</option>
-                                <option value="澳门">澳门</option>
-                                <option value="广西">广西</option>
-                                <option value="宁夏">宁夏</option>
-                                <option value="新疆">新疆</option>
-                                <option value="内蒙古" selected>内蒙古</option>
-                                <option value="西藏">西藏</option>
-                            </select>
-                        </c:if>
+                        <option value="北京">北京市</option>
+                        <option value="浙江省">浙江省</option>
+                        <option value="天津市">天津市</option>
+                        <option value="安徽省">安徽省</option>
+                        <option value="上海市">上海市</option>
+                        <option value="福建省">福建省</option>
+                        <option value="重庆市">重庆市</option>
+                        <option value="江西省">江西省</option>
+                        <option value="山东省">山东省</option>
+                        <option value="河南省">河南省</option>
+                        <option value="湖北省">湖北省</option>
+                        <option value="湖南省">湖南省</option>
+                        <option value="广东省">广东省</option>
+                        <option value="海南省">海南省</option>
+                        <option value="山西省">山西省</option>
+                        <option value="青海省">青海省</option>
+                        <option value="江苏省" selected>江苏省</option>
+                        <option value="辽宁省">辽宁省</option>
+                        <option value="吉林省">吉林省</option>
+                        <option value="台湾省">台湾省</option>
+                        <option value="河北省">河北省</option>
+                        <option value="贵州省">贵州省</option>
+                        <option value="四川省">四川省</option>
+                        <option value="云南省">云南省</option>
+                        <option value="陕西省">陕西省</option>
+                        <option value="甘肃省">甘肃省</option>
+                        <option value="黑龙江省">黑龙江省</option>
+                        <option value="香港">香港</option>
+                        <option value="澳门">澳门</option>
+                        <option value="广西">广西</option>
+                        <option value="宁夏">宁夏</option>
+                        <option value="新疆">新疆</option>
+                        <option value="内蒙古">内蒙古</option>
+                        <option value="西藏">西藏</option>
+                        </select>
+                    </c:if>
 
-                        <c:if test="${user.address == '西藏'}">
-  
-                                <option value="北京">北京市</option>
-                                <option value="浙江省">浙江省</option>
-                                <option value="天津市">天津市</option>
-                                <option value="安徽省">安徽省</option>
-                                <option value="上海市">上海市</option>
-                                <option value="福建省">福建省</option>
-                                <option value="重庆市">重庆市</option>
-                                <option value="江西省">江西省</option>
-                                <option value="山东省">山东省</option>
-                                <option value="河南省">河南省</option>
-                                <option value="湖北省">湖北省</option>
-                                <option value="湖南省">湖南省</option>
-                                <option value="广东省">广东省</option>
-                                <option value="海南省">海南省</option>
-                                <option value="山西省">山西省</option>
-                                <option value="青海省">青海省</option>
-                                <option value="江苏省">江苏省</option>
-                                <option value="辽宁省">辽宁省</option>
-                                <option value="吉林省">吉林省</option>
-                                <option value="台湾省">台湾省</option>
-                                <option value="河北省">河北省</option>
-                                <option value="贵州省">贵州省</option>
-                                <option value="四川省">四川省</option>
-                                <option value="云南省">云南省</option>
-                                <option value="陕西省">陕西省</option>
-                                <option value="甘肃省">甘肃省</option>
-                                <option value="黑龙江省">黑龙江省</option>
-                                <option value="香港">香港</option>
-                                <option value="澳门">澳门</option>
-                                <option value="广西">广西</option>
-                                <option value="宁夏">宁夏</option>
-                                <option value="新疆">新疆</option>
-                                <option value="内蒙古">内蒙古</option>
-                                <option value="西藏" selected>西藏</option>
-                            </select>
-                        </c:if>
+                    <c:if test="${user.address == '辽宁省'}">
+
+                        <option value="北京">北京市</option>
+                        <option value="浙江省">浙江省</option>
+                        <option value="天津市">天津市</option>
+                        <option value="安徽省">安徽省</option>
+                        <option value="上海市">上海市</option>
+                        <option value="福建省">福建省</option>
+                        <option value="重庆市">重庆市</option>
+                        <option value="江西省">江西省</option>
+                        <option value="山东省">山东省</option>
+                        <option value="河南省">河南省</option>
+                        <option value="湖北省">湖北省</option>
+                        <option value="湖南省">湖南省</option>
+                        <option value="广东省">广东省</option>
+                        <option value="海南省">海南省</option>
+                        <option value="山西省">山西省</option>
+                        <option value="青海省">青海省</option>
+                        <option value="江苏省">江苏省</option>
+                        <option value="辽宁省" selected>辽宁省</option>
+                        <option value="吉林省">吉林省</option>
+                        <option value="台湾省">台湾省</option>
+                        <option value="河北省">河北省</option>
+                        <option value="贵州省">贵州省</option>
+                        <option value="四川省">四川省</option>
+                        <option value="云南省">云南省</option>
+                        <option value="陕西省">陕西省</option>
+                        <option value="甘肃省">甘肃省</option>
+                        <option value="黑龙江省">黑龙江省</option>
+                        <option value="香港">香港</option>
+                        <option value="澳门">澳门</option>
+                        <option value="广西">广西</option>
+                        <option value="宁夏">宁夏</option>
+                        <option value="新疆">新疆</option>
+                        <option value="内蒙古">内蒙古</option>
+                        <option value="西藏">西藏</option>
+                        </select>
+                    </c:if>
+
+                    <c:if test="${user.address == '吉林省'}">
+
+                        <option value="北京">北京市</option>
+                        <option value="浙江省">浙江省</option>
+                        <option value="天津市">天津市</option>
+                        <option value="安徽省">安徽省</option>
+                        <option value="上海市">上海市</option>
+                        <option value="福建省">福建省</option>
+                        <option value="重庆市">重庆市</option>
+                        <option value="江西省">江西省</option>
+                        <option value="山东省">山东省</option>
+                        <option value="河南省">河南省</option>
+                        <option value="湖北省">湖北省</option>
+                        <option value="湖南省">湖南省</option>
+                        <option value="广东省">广东省</option>
+                        <option value="海南省">海南省</option>
+                        <option value="山西省">山西省</option>
+                        <option value="青海省">青海省</option>
+                        <option value="江苏省">江苏省</option>
+                        <option value="辽宁省">辽宁省</option>
+                        <option value="吉林省" selected>吉林省</option>
+                        <option value="台湾省">台湾省</option>
+                        <option value="河北省">河北省</option>
+                        <option value="贵州省">贵州省</option>
+                        <option value="四川省">四川省</option>
+                        <option value="云南省">云南省</option>
+                        <option value="陕西省">陕西省</option>
+                        <option value="甘肃省">甘肃省</option>
+                        <option value="黑龙江省">黑龙江省</option>
+                        <option value="香港">香港</option>
+                        <option value="澳门">澳门</option>
+                        <option value="广西">广西</option>
+                        <option value="宁夏">宁夏</option>
+                        <option value="新疆">新疆</option>
+                        <option value="内蒙古">内蒙古</option>
+                        <option value="西藏">西藏</option>
+                        </select>
+                    </c:if>
+
+                    <c:if test="${user.address == '台湾省'}">
+
+                        <option value="北京">北京市</option>
+                        <option value="浙江省">浙江省</option>
+                        <option value="天津市">天津市</option>
+                        <option value="安徽省">安徽省</option>
+                        <option value="上海市">上海市</option>
+                        <option value="福建省">福建省</option>
+                        <option value="重庆市">重庆市</option>
+                        <option value="江西省">江西省</option>
+                        <option value="山东省">山东省</option>
+                        <option value="河南省">河南省</option>
+                        <option value="湖北省">湖北省</option>
+                        <option value="湖南省">湖南省</option>
+                        <option value="广东省">广东省</option>
+                        <option value="海南省">海南省</option>
+                        <option value="山西省">山西省</option>
+                        <option value="青海省">青海省</option>
+                        <option value="江苏省">江苏省</option>
+                        <option value="辽宁省">辽宁省</option>
+                        <option value="吉林省">吉林省</option>
+                        <option value="台湾省" selected>台湾省</option>
+                        <option value="河北省">河北省</option>
+                        <option value="贵州省">贵州省</option>
+                        <option value="四川省">四川省</option>
+                        <option value="云南省">云南省</option>
+                        <option value="陕西省">陕西省</option>
+                        <option value="甘肃省">甘肃省</option>
+                        <option value="黑龙江省">黑龙江省</option>
+                        <option value="香港">香港</option>
+                        <option value="澳门">澳门</option>
+                        <option value="广西">广西</option>
+                        <option value="宁夏">宁夏</option>
+                        <option value="新疆">新疆</option>
+                        <option value="内蒙古">内蒙古</option>
+                        <option value="西藏">西藏</option>
+                        </select>
+                    </c:if>
+
+                    <c:if test="${user.address == '河北省'}">
+
+                        <option value="北京">北京市</option>
+                        <option value="浙江省">浙江省</option>
+                        <option value="天津市">天津市</option>
+                        <option value="安徽省">安徽省</option>
+                        <option value="上海市">上海市</option>
+                        <option value="福建省">福建省</option>
+                        <option value="重庆市">重庆市</option>
+                        <option value="江西省">江西省</option>
+                        <option value="山东省">山东省</option>
+                        <option value="河南省">河南省</option>
+                        <option value="湖北省">湖北省</option>
+                        <option value="湖南省">湖南省</option>
+                        <option value="广东省">广东省</option>
+                        <option value="海南省">海南省</option>
+                        <option value="山西省">山西省</option>
+                        <option value="青海省">青海省</option>
+                        <option value="江苏省">江苏省</option>
+                        <option value="辽宁省">辽宁省</option>
+                        <option value="吉林省">吉林省</option>
+                        <option value="台湾省">台湾省</option>
+                        <option value="河北省" selected>河北省</option>
+                        <option value="贵州省">贵州省</option>
+                        <option value="四川省">四川省</option>
+                        <option value="云南省">云南省</option>
+                        <option value="陕西省">陕西省</option>
+                        <option value="甘肃省">甘肃省</option>
+                        <option value="黑龙江省">黑龙江省</option>
+                        <option value="香港">香港</option>
+                        <option value="澳门">澳门</option>
+                        <option value="广西">广西</option>
+                        <option value="宁夏">宁夏</option>
+                        <option value="新疆">新疆</option>
+                        <option value="内蒙古">内蒙古</option>
+                        <option value="西藏">西藏</option>
+                        </select>
+                    </c:if>
+
+                    <c:if test="${user.address == '贵州省'}">
+
+                        <option value="北京">北京市</option>
+                        <option value="浙江省">浙江省</option>
+                        <option value="天津市">天津市</option>
+                        <option value="安徽省">安徽省</option>
+                        <option value="上海市">上海市</option>
+                        <option value="福建省">福建省</option>
+                        <option value="重庆市">重庆市</option>
+                        <option value="江西省">江西省</option>
+                        <option value="山东省">山东省</option>
+                        <option value="河南省">河南省</option>
+                        <option value="湖北省">湖北省</option>
+                        <option value="湖南省">湖南省</option>
+                        <option value="广东省">广东省</option>
+                        <option value="海南省">海南省</option>
+                        <option value="山西省">山西省</option>
+                        <option value="青海省">青海省</option>
+                        <option value="江苏省">江苏省</option>
+                        <option value="辽宁省">辽宁省</option>
+                        <option value="吉林省">吉林省</option>
+                        <option value="台湾省">台湾省</option>
+                        <option value="河北省">河北省</option>
+                        <option value="贵州省" selected>贵州省</option>
+                        <option value="四川省">四川省</option>
+                        <option value="云南省">云南省</option>
+                        <option value="陕西省">陕西省</option>
+                        <option value="甘肃省">甘肃省</option>
+                        <option value="黑龙江省">黑龙江省</option>
+                        <option value="香港">香港</option>
+                        <option value="澳门">澳门</option>
+                        <option value="广西">广西</option>
+                        <option value="宁夏">宁夏</option>
+                        <option value="新疆">新疆</option>
+                        <option value="内蒙古">内蒙古</option>
+                        <option value="西藏">西藏</option>
+                        </select>
+                    </c:if>
+
+                    <c:if test="${user.address == '四川省'}">
+
+                        <option value="北京">北京市</option>
+                        <option value="浙江省">浙江省</option>
+                        <option value="天津市">天津市</option>
+                        <option value="安徽省">安徽省</option>
+                        <option value="上海市">上海市</option>
+                        <option value="福建省">福建省</option>
+                        <option value="重庆市">重庆市</option>
+                        <option value="江西省">江西省</option>
+                        <option value="山东省">山东省</option>
+                        <option value="河南省">河南省</option>
+                        <option value="湖北省">湖北省</option>
+                        <option value="湖南省">湖南省</option>
+                        <option value="广东省">广东省</option>
+                        <option value="海南省">海南省</option>
+                        <option value="山西省">山西省</option>
+                        <option value="青海省">青海省</option>
+                        <option value="江苏省">江苏省</option>
+                        <option value="辽宁省">辽宁省</option>
+                        <option value="吉林省">吉林省</option>
+                        <option value="台湾省">台湾省</option>
+                        <option value="河北省">河北省</option>
+                        <option value="贵州省">贵州省</option>
+                        <option value="四川省" selected>四川省</option>
+                        <option value="云南省">云南省</option>
+                        <option value="陕西省">陕西省</option>
+                        <option value="甘肃省">甘肃省</option>
+                        <option value="黑龙江省">黑龙江省</option>
+                        <option value="香港">香港</option>
+                        <option value="澳门">澳门</option>
+                        <option value="广西">广西</option>
+                        <option value="宁夏">宁夏</option>
+                        <option value="新疆">新疆</option>
+                        <option value="内蒙古">内蒙古</option>
+                        <option value="西藏">西藏</option>
+                        </select>
+                    </c:if>
+
+                    <c:if test="${user.address == '云南省'}">
+
+                        <option value="北京">北京市</option>
+                        <option value="浙江省">浙江省</option>
+                        <option value="天津市">天津市</option>
+                        <option value="安徽省">安徽省</option>
+                        <option value="上海市">上海市</option>
+                        <option value="福建省">福建省</option>
+                        <option value="重庆市">重庆市</option>
+                        <option value="江西省">江西省</option>
+                        <option value="山东省">山东省</option>
+                        <option value="河南省">河南省</option>
+                        <option value="湖北省">湖北省</option>
+                        <option value="湖南省">湖南省</option>
+                        <option value="广东省">广东省</option>
+                        <option value="海南省">海南省</option>
+                        <option value="山西省">山西省</option>
+                        <option value="青海省">青海省</option>
+                        <option value="江苏省">江苏省</option>
+                        <option value="辽宁省">辽宁省</option>
+                        <option value="吉林省">吉林省</option>
+                        <option value="台湾省">台湾省</option>
+                        <option value="河北省">河北省</option>
+                        <option value="贵州省">贵州省</option>
+                        <option value="四川省">四川省</option>
+                        <option value="云南省" selected>云南省</option>
+                        <option value="陕西省">陕西省</option>
+                        <option value="甘肃省">甘肃省</option>
+                        <option value="黑龙江省">黑龙江省</option>
+                        <option value="香港">香港</option>
+                        <option value="澳门">澳门</option>
+                        <option value="广西">广西</option>
+                        <option value="宁夏">宁夏</option>
+                        <option value="新疆">新疆</option>
+                        <option value="内蒙古">内蒙古</option>
+                        <option value="西藏">西藏</option>
+                        </select>
+                    </c:if>
+
+                    <c:if test="${user.address == '陕西省'}">
+
+                        <option value="北京">北京市</option>
+                        <option value="浙江省">浙江省</option>
+                        <option value="天津市">天津市</option>
+                        <option value="安徽省">安徽省</option>
+                        <option value="上海市">上海市</option>
+                        <option value="福建省">福建省</option>
+                        <option value="重庆市">重庆市</option>
+                        <option value="江西省">江西省</option>
+                        <option value="山东省">山东省</option>
+                        <option value="河南省">河南省</option>
+                        <option value="湖北省">湖北省</option>
+                        <option value="湖南省">湖南省</option>
+                        <option value="广东省">广东省</option>
+                        <option value="海南省">海南省</option>
+                        <option value="山西省">山西省</option>
+                        <option value="青海省">青海省</option>
+                        <option value="江苏省">江苏省</option>
+                        <option value="辽宁省">辽宁省</option>
+                        <option value="吉林省">吉林省</option>
+                        <option value="台湾省">台湾省</option>
+                        <option value="河北省">河北省</option>
+                        <option value="贵州省">贵州省</option>
+                        <option value="四川省">四川省</option>
+                        <option value="云南省">云南省</option>
+                        <option value="陕西省" selected>陕西省</option>
+                        <option value="甘肃省">甘肃省</option>
+                        <option value="黑龙江省">黑龙江省</option>
+                        <option value="香港">香港</option>
+                        <option value="澳门">澳门</option>
+                        <option value="广西">广西</option>
+                        <option value="宁夏">宁夏</option>
+                        <option value="新疆">新疆</option>
+                        <option value="内蒙古">内蒙古</option>
+                        <option value="西藏">西藏</option>
+                        </select>
+                    </c:if>
+
+                    <c:if test="${user.address == '甘肃省'}">
+
+                        <option value="北京">北京市</option>
+                        <option value="浙江省">浙江省</option>
+                        <option value="天津市">天津市</option>
+                        <option value="安徽省">安徽省</option>
+                        <option value="上海市">上海市</option>
+                        <option value="福建省">福建省</option>
+                        <option value="重庆市">重庆市</option>
+                        <option value="江西省">江西省</option>
+                        <option value="山东省">山东省</option>
+                        <option value="河南省">河南省</option>
+                        <option value="湖北省">湖北省</option>
+                        <option value="湖南省">湖南省</option>
+                        <option value="广东省">广东省</option>
+                        <option value="海南省">海南省</option>
+                        <option value="山西省">山西省</option>
+                        <option value="青海省">青海省</option>
+                        <option value="江苏省">江苏省</option>
+                        <option value="辽宁省">辽宁省</option>
+                        <option value="吉林省">吉林省</option>
+                        <option value="台湾省">台湾省</option>
+                        <option value="河北省">河北省</option>
+                        <option value="贵州省">贵州省</option>
+                        <option value="四川省">四川省</option>
+                        <option value="云南省">云南省</option>
+                        <option value="陕西省">陕西省</option>
+                        <option value="甘肃省" selected>甘肃省</option>
+                        <option value="黑龙江省">黑龙江省</option>
+                        <option value="香港">香港</option>
+                        <option value="澳门">澳门</option>
+                        <option value="广西">广西</option>
+                        <option value="宁夏">宁夏</option>
+                        <option value="新疆">新疆</option>
+                        <option value="内蒙古">内蒙古</option>
+                        <option value="西藏">西藏</option>
+                        </select>
+                    </c:if>
+
+                    <c:if test="${user.address == '黑龙江省'}">
+
+                        <option value="北京">北京市</option>
+                        <option value="浙江省">浙江省</option>
+                        <option value="天津市">天津市</option>
+                        <option value="安徽省">安徽省</option>
+                        <option value="上海市">上海市</option>
+                        <option value="福建省">福建省</option>
+                        <option value="重庆市">重庆市</option>
+                        <option value="江西省">江西省</option>
+                        <option value="山东省">山东省</option>
+                        <option value="河南省">河南省</option>
+                        <option value="湖北省">湖北省</option>
+                        <option value="湖南省">湖南省</option>
+                        <option value="广东省">广东省</option>
+                        <option value="海南省">海南省</option>
+                        <option value="山西省">山西省</option>
+                        <option value="青海省">青海省</option>
+                        <option value="江苏省">江苏省</option>
+                        <option value="辽宁省">辽宁省</option>
+                        <option value="吉林省">吉林省</option>
+                        <option value="台湾省">台湾省</option>
+                        <option value="河北省">河北省</option>
+                        <option value="贵州省">贵州省</option>
+                        <option value="四川省">四川省</option>
+                        <option value="云南省">云南省</option>
+                        <option value="陕西省">陕西省</option>
+                        <option value="甘肃省">甘肃省</option>
+                        <option value="黑龙江省" selected>黑龙江省</option>
+                        <option value="香港">香港</option>
+                        <option value="澳门">澳门</option>
+                        <option value="广西">广西</option>
+                        <option value="宁夏">宁夏</option>
+                        <option value="新疆">新疆</option>
+                        <option value="内蒙古">内蒙古</option>
+                        <option value="西藏">西藏</option>
+                        </select>
+                    </c:if>
+
+                    <c:if test="${user.address == '香港'}">
+
+                        <option value="北京">北京市</option>
+                        <option value="浙江省">浙江省</option>
+                        <option value="天津市">天津市</option>
+                        <option value="安徽省">安徽省</option>
+                        <option value="上海市">上海市</option>
+                        <option value="福建省">福建省</option>
+                        <option value="重庆市">重庆市</option>
+                        <option value="江西省">江西省</option>
+                        <option value="山东省">山东省</option>
+                        <option value="河南省">河南省</option>
+                        <option value="湖北省">湖北省</option>
+                        <option value="湖南省">湖南省</option>
+                        <option value="广东省">广东省</option>
+                        <option value="海南省">海南省</option>
+                        <option value="山西省">山西省</option>
+                        <option value="青海省">青海省</option>
+                        <option value="江苏省">江苏省</option>
+                        <option value="辽宁省">辽宁省</option>
+                        <option value="吉林省">吉林省</option>
+                        <option value="台湾省">台湾省</option>
+                        <option value="河北省">河北省</option>
+                        <option value="贵州省">贵州省</option>
+                        <option value="四川省">四川省</option>
+                        <option value="云南省">云南省</option>
+                        <option value="陕西省">陕西省</option>
+                        <option value="甘肃省">甘肃省</option>
+                        <option value="黑龙江省">黑龙江省</option>
+                        <option value="香港" selected>香港</option>
+                        <option value="澳门">澳门</option>
+                        <option value="广西">广西</option>
+                        <option value="宁夏">宁夏</option>
+                        <option value="新疆">新疆</option>
+                        <option value="内蒙古">内蒙古</option>
+                        <option value="西藏">西藏</option>
+                        </select>
+                    </c:if>
+
+                    <c:if test="${user.address == '澳门'}">
+
+                        <option value="北京">北京市</option>
+                        <option value="浙江省">浙江省</option>
+                        <option value="天津市">天津市</option>
+                        <option value="安徽省">安徽省</option>
+                        <option value="上海市">上海市</option>
+                        <option value="福建省">福建省</option>
+                        <option value="重庆市">重庆市</option>
+                        <option value="江西省">江西省</option>
+                        <option value="山东省">山东省</option>
+                        <option value="河南省">河南省</option>
+                        <option value="湖北省">湖北省</option>
+                        <option value="湖南省">湖南省</option>
+                        <option value="广东省">广东省</option>
+                        <option value="海南省">海南省</option>
+                        <option value="山西省">山西省</option>
+                        <option value="青海省">青海省</option>
+                        <option value="江苏省">江苏省</option>
+                        <option value="辽宁省">辽宁省</option>
+                        <option value="吉林省">吉林省</option>
+                        <option value="台湾省">台湾省</option>
+                        <option value="河北省">河北省</option>
+                        <option value="贵州省">贵州省</option>
+                        <option value="四川省">四川省</option>
+                        <option value="云南省">云南省</option>
+                        <option value="陕西省">陕西省</option>
+                        <option value="甘肃省">甘肃省</option>
+                        <option value="黑龙江省">黑龙江省</option>
+                        <option value="香港">香港</option>
+                        <option value="澳门" selected>澳门</option>
+                        <option value="广西">广西</option>
+                        <option value="宁夏">宁夏</option>
+                        <option value="新疆">新疆</option>
+                        <option value="内蒙古">内蒙古</option>
+                        <option value="西藏">西藏</option>
+                        </select>
+                    </c:if>
+
+                    <c:if test="${user.address == '广西'}">
+
+                        <option value="北京">北京市</option>
+                        <option value="浙江省">浙江省</option>
+                        <option value="天津市">天津市</option>
+                        <option value="安徽省">安徽省</option>
+                        <option value="上海市">上海市</option>
+                        <option value="福建省">福建省</option>
+                        <option value="重庆市">重庆市</option>
+                        <option value="江西省">江西省</option>
+                        <option value="山东省">山东省</option>
+                        <option value="河南省">河南省</option>
+                        <option value="湖北省">湖北省</option>
+                        <option value="湖南省">湖南省</option>
+                        <option value="广东省">广东省</option>
+                        <option value="海南省">海南省</option>
+                        <option value="山西省">山西省</option>
+                        <option value="青海省">青海省</option>
+                        <option value="江苏省">江苏省</option>
+                        <option value="辽宁省">辽宁省</option>
+                        <option value="吉林省">吉林省</option>
+                        <option value="台湾省">台湾省</option>
+                        <option value="河北省">河北省</option>
+                        <option value="贵州省">贵州省</option>
+                        <option value="四川省">四川省</option>
+                        <option value="云南省">云南省</option>
+                        <option value="陕西省">陕西省</option>
+                        <option value="甘肃省">甘肃省</option>
+                        <option value="黑龙江省">黑龙江省</option>
+                        <option value="香港">香港</option>
+                        <option value="澳门">澳门</option>
+                        <option value="广西" selected>广西</option>
+                        <option value="宁夏">宁夏</option>
+                        <option value="新疆">新疆</option>
+                        <option value="内蒙古">内蒙古</option>
+                        <option value="西藏">西藏</option>
+                        </select>
+                    </c:if>
+
+                    <c:if test="${user.address == '宁夏'}">
+
+                        <option value="北京">北京市</option>
+                        <option value="浙江省">浙江省</option>
+                        <option value="天津市">天津市</option>
+                        <option value="安徽省">安徽省</option>
+                        <option value="上海市">上海市</option>
+                        <option value="福建省">福建省</option>
+                        <option value="重庆市">重庆市</option>
+                        <option value="江西省">江西省</option>
+                        <option value="山东省">山东省</option>
+                        <option value="河南省">河南省</option>
+                        <option value="湖北省">湖北省</option>
+                        <option value="湖南省">湖南省</option>
+                        <option value="广东省">广东省</option>
+                        <option value="海南省">海南省</option>
+                        <option value="山西省">山西省</option>
+                        <option value="青海省">青海省</option>
+                        <option value="江苏省">江苏省</option>
+                        <option value="辽宁省">辽宁省</option>
+                        <option value="吉林省">吉林省</option>
+                        <option value="台湾省">台湾省</option>
+                        <option value="河北省">河北省</option>
+                        <option value="贵州省">贵州省</option>
+                        <option value="四川省">四川省</option>
+                        <option value="云南省">云南省</option>
+                        <option value="陕西省">陕西省</option>
+                        <option value="甘肃省">甘肃省</option>
+                        <option value="黑龙江省">黑龙江省</option>
+                        <option value="香港">香港</option>
+                        <option value="澳门">澳门</option>
+                        <option value="广西">广西</option>
+                        <option value="宁夏" selected>宁夏</option>
+                        <option value="新疆">新疆</option>
+                        <option value="内蒙古">内蒙古</option>
+                        <option value="西藏">西藏</option>
+                        </select>
+                    </c:if>
+
+                    <c:if test="${user.address == '宁夏'}">
+
+                        <option value="北京">北京市</option>
+                        <option value="浙江省">浙江省</option>
+                        <option value="天津市">天津市</option>
+                        <option value="安徽省">安徽省</option>
+                        <option value="上海市">上海市</option>
+                        <option value="福建省">福建省</option>
+                        <option value="重庆市">重庆市</option>
+                        <option value="江西省">江西省</option>
+                        <option value="山东省">山东省</option>
+                        <option value="河南省">河南省</option>
+                        <option value="湖北省">湖北省</option>
+                        <option value="湖南省">湖南省</option>
+                        <option value="广东省">广东省</option>
+                        <option value="海南省">海南省</option>
+                        <option value="山西省">山西省</option>
+                        <option value="青海省">青海省</option>
+                        <option value="江苏省">江苏省</option>
+                        <option value="辽宁省">辽宁省</option>
+                        <option value="吉林省">吉林省</option>
+                        <option value="台湾省">台湾省</option>
+                        <option value="河北省">河北省</option>
+                        <option value="贵州省">贵州省</option>
+                        <option value="四川省">四川省</option>
+                        <option value="云南省">云南省</option>
+                        <option value="陕西省">陕西省</option>
+                        <option value="甘肃省">甘肃省</option>
+                        <option value="黑龙江省">黑龙江省</option>
+                        <option value="香港">香港</option>
+                        <option value="澳门">澳门</option>
+                        <option value="广西">广西</option>
+                        <option value="宁夏" selected>宁夏</option>
+                        <option value="新疆">新疆</option>
+                        <option value="内蒙古">内蒙古</option>
+                        <option value="西藏">西藏</option>
+                        </select>
+                    </c:if>
+
+                    <c:if test="${user.address == '新疆'}">
+
+                        <option value="北京">北京市</option>
+                        <option value="浙江省">浙江省</option>
+                        <option value="天津市">天津市</option>
+                        <option value="安徽省">安徽省</option>
+                        <option value="上海市">上海市</option>
+                        <option value="福建省">福建省</option>
+                        <option value="重庆市">重庆市</option>
+                        <option value="江西省">江西省</option>
+                        <option value="山东省">山东省</option>
+                        <option value="河南省">河南省</option>
+                        <option value="湖北省">湖北省</option>
+                        <option value="湖南省">湖南省</option>
+                        <option value="广东省">广东省</option>
+                        <option value="海南省">海南省</option>
+                        <option value="山西省">山西省</option>
+                        <option value="青海省">青海省</option>
+                        <option value="江苏省">江苏省</option>
+                        <option value="辽宁省">辽宁省</option>
+                        <option value="吉林省">吉林省</option>
+                        <option value="台湾省">台湾省</option>
+                        <option value="河北省">河北省</option>
+                        <option value="贵州省">贵州省</option>
+                        <option value="四川省">四川省</option>
+                        <option value="云南省">云南省</option>
+                        <option value="陕西省">陕西省</option>
+                        <option value="甘肃省">甘肃省</option>
+                        <option value="黑龙江省">黑龙江省</option>
+                        <option value="香港">香港</option>
+                        <option value="澳门">澳门</option>
+                        <option value="广西">广西</option>
+                        <option value="宁夏">宁夏</option>
+                        <option value="新疆" selected>新疆</option>
+                        <option value="内蒙古">内蒙古</option>
+                        <option value="西藏">西藏</option>
+                        </select>
+                    </c:if>
+
+                    <c:if test="${user.address == '内蒙古'}">
+
+                        <option value="北京">北京市</option>
+                        <option value="浙江省">浙江省</option>
+                        <option value="天津市">天津市</option>
+                        <option value="安徽省">安徽省</option>
+                        <option value="上海市">上海市</option>
+                        <option value="福建省">福建省</option>
+                        <option value="重庆市">重庆市</option>
+                        <option value="江西省">江西省</option>
+                        <option value="山东省">山东省</option>
+                        <option value="河南省">河南省</option>
+                        <option value="湖北省">湖北省</option>
+                        <option value="湖南省">湖南省</option>
+                        <option value="广东省">广东省</option>
+                        <option value="海南省">海南省</option>
+                        <option value="山西省">山西省</option>
+                        <option value="青海省">青海省</option>
+                        <option value="江苏省">江苏省</option>
+                        <option value="辽宁省">辽宁省</option>
+                        <option value="吉林省">吉林省</option>
+                        <option value="台湾省">台湾省</option>
+                        <option value="河北省">河北省</option>
+                        <option value="贵州省">贵州省</option>
+                        <option value="四川省">四川省</option>
+                        <option value="云南省">云南省</option>
+                        <option value="陕西省">陕西省</option>
+                        <option value="甘肃省">甘肃省</option>
+                        <option value="黑龙江省">黑龙江省</option>
+                        <option value="香港">香港</option>
+                        <option value="澳门">澳门</option>
+                        <option value="广西">广西</option>
+                        <option value="宁夏">宁夏</option>
+                        <option value="新疆">新疆</option>
+                        <option value="内蒙古" selected>内蒙古</option>
+                        <option value="西藏">西藏</option>
+                        </select>
+                    </c:if>
+
+                    <c:if test="${user.address == '西藏'}">
+
+                        <option value="北京">北京市</option>
+                        <option value="浙江省">浙江省</option>
+                        <option value="天津市">天津市</option>
+                        <option value="安徽省">安徽省</option>
+                        <option value="上海市">上海市</option>
+                        <option value="福建省">福建省</option>
+                        <option value="重庆市">重庆市</option>
+                        <option value="江西省">江西省</option>
+                        <option value="山东省">山东省</option>
+                        <option value="河南省">河南省</option>
+                        <option value="湖北省">湖北省</option>
+                        <option value="湖南省">湖南省</option>
+                        <option value="广东省">广东省</option>
+                        <option value="海南省">海南省</option>
+                        <option value="山西省">山西省</option>
+                        <option value="青海省">青海省</option>
+                        <option value="江苏省">江苏省</option>
+                        <option value="辽宁省">辽宁省</option>
+                        <option value="吉林省">吉林省</option>
+                        <option value="台湾省">台湾省</option>
+                        <option value="河北省">河北省</option>
+                        <option value="贵州省">贵州省</option>
+                        <option value="四川省">四川省</option>
+                        <option value="云南省">云南省</option>
+                        <option value="陕西省">陕西省</option>
+                        <option value="甘肃省">甘肃省</option>
+                        <option value="黑龙江省">黑龙江省</option>
+                        <option value="香港">香港</option>
+                        <option value="澳门">澳门</option>
+                        <option value="广西">广西</option>
+                        <option value="宁夏">宁夏</option>
+                        <option value="新疆">新疆</option>
+                        <option value="内蒙古">内蒙古</option>
+                        <option value="西藏" selected>西藏</option>
+                        </select>
+                    </c:if>
 
                     </select>
                 </div>
