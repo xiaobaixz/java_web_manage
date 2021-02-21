@@ -60,8 +60,7 @@ public class LoginServlet extends HttpServlet {
         // 6.判断是否登录成功
         if (login_user != null) {
             // 登陆成功
-            // 将用户存入session
-            // 跳转页面
+            // 将用户存入session，过滤器的关键对象
             session.setAttribute("user", login_user);
 
             // 用户名、密码、验证码比对通过，将页面转发到index.jsp页面中
